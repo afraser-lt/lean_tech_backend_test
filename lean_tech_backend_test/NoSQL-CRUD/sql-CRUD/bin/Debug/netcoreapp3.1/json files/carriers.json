@@ -1,0 +1,3901 @@
+[{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb16"
+  },
+  "SCAC": "2KTRI",
+  "ID": 1,
+  "NAME": "2K TRANSPORTATION",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb17"
+  },
+  "SCAC": "800K",
+  "ID": 2,
+  "NAME": "800K LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb18"
+  },
+  "SCAC": "ETEL",
+  "ID": 3,
+  "NAME": "828 LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb19"
+  },
+  "SCAC": "AGCE",
+  "ID": 4,
+  "NAME": "A C I MOTOR FREIGHT INC.",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb1a"
+  },
+  "SCAC": "AITINC",
+  "ID": 5,
+  "NAME": "A&I TRUST IN GOD",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb1b"
+  },
+  "SCAC": "PYLE",
+  "ID": 6,
+  "NAME": "A. DUIE PYLE",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb1c"
+  },
+  "SCAC": "AACT",
+  "ID": 7,
+  "NAME": "AAA COOPER TRANSPORTATION",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb1d"
+  },
+  "SCAC": "ABNE",
+  "ID": 8,
+  "NAME": "ABERDEEN EXPRESS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb1e"
+  },
+  "SCAC": "ABFS",
+  "ID": 9,
+  "NAME": "ABF FREIGHT SYSTEM",
+  "MC": 29910,
+  "DOT": 82866,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb1f"
+  },
+  "SCAC": "AXCR",
+  "ID": 10,
+  "NAME": "ACCEL LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb20"
+  },
+  "SCAC": "ALDS",
+  "ID": 11,
+  "NAME": "AIR LAND DELIVERY SOLUTIONS INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb21"
+  },
+  "SCAC": "ARVQ",
+  "ID": 12,
+  "NAME": "AIR VAN INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb22"
+  },
+  "SCAC": "APSL",
+  "ID": 13,
+  "NAME": "ALIGN PRODUCTION SYSTEMS, LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb23"
+  },
+  "SCAC": "ALLYL",
+  "ID": 14,
+  "NAME": "ALLY LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb24"
+  },
+  "SCAC": "AMNO",
+  "ID": 15,
+  "NAME": "AM TRANSPORT SERVICES INC",
+  "MC": 321032,
+  "DOT": 692135,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb25"
+  },
+  "SCAC": "AMTR",
+  "ID": 16,
+  "NAME": "AM TRUCKING",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb26"
+  },
+  "SCAC": "AMAP",
+  "ID": 17,
+  "NAME": "AMA TRANSPORTATION",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb27"
+  },
+  "SCAC": "AFFI",
+  "ID": 18,
+  "NAME": "AMERICAN FAST FREIGHT INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb28"
+  },
+  "SCAC": "ALG",
+  "ID": 19,
+  "NAME": "AMERICAN LOGISTICS GROUP INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb29"
+  },
+  "SCAC": "AMTG",
+  "ID": 20,
+  "NAME": "AMERICAN TRANSPORT GROUP, LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb2a"
+  },
+  "SCAC": "AFGM",
+  "ID": 21,
+  "NAME": "AMERIFREIGHT SYSTEMS, LLC.",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb2b"
+  },
+  "SCAC": "AMGS",
+  "ID": 22,
+  "NAME": "AMG CUSTOMS SOLUTIONS INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb2c"
+  },
+  "SCAC": "AYWY",
+  "ID": 23,
+  "NAME": "ANYWAY LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb2d"
+  },
+  "SCAC": "AFFA",
+  "ID": 24,
+  "NAME": "APPROVED FREIGHT FORWARDERS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb2e"
+  },
+  "SCAC": "ARCB",
+  "ID": 25,
+  "NAME": "ARCBEST",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb2f"
+  },
+  "SCAC": "AGL",
+  "ID": 26,
+  "NAME": "ARIES GLOBAL LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb30"
+  },
+  "SCAC": "ATIE",
+  "ID": 27,
+  "NAME": "ARMSTRONG TRANSPORT GROUP INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb31"
+  },
+  "SCAC": "ANTT",
+  "ID": 28,
+  "NAME": "ARNOLD TRANSPORTATION SERVICES",
+  "MC": 149541,
+  "DOT": 148974,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb32"
+  },
+  "SCAC": "AROY",
+  "ID": 29,
+  "NAME": "AROUND THE CLOCK DISPATCH INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb33"
+  },
+  "SCAC": "AAEG",
+  "ID": 30,
+  "NAME": "ARPCO TRANSPORT SERVICES",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb34"
+  },
+  "SCAC": "ARR",
+  "ID": 31,
+  "NAME": "ARRIVE LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb35"
+  },
+  "SCAC": "ARRL",
+  "ID": 32,
+  "NAME": "ARRIVE LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb36"
+  },
+  "SCAC": "ASAN",
+  "ID": 33,
+  "NAME": "ASANTE TRUCKING",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb37"
+  },
+  "SCAC": "ASAP",
+  "ID": 34,
+  "NAME": "ASAP COURIER COMPANY INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb38"
+  },
+  "SCAC": "AASAP",
+  "ID": 35,
+  "NAME": "ASAP TRUCKING COMPANY",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb39"
+  },
+  "SCAC": "AEZG",
+  "ID": 36,
+  "NAME": "ASCENT GLOBAL LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb3a"
+  },
+  "SCAC": "RRNA",
+  "ID": 37,
+  "NAME": "ASCENT POWER",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb3b"
+  },
+  "SCAC": "AGUG",
+  "ID": 38,
+  "NAME": "ATG FREIGHT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb3c"
+  },
+  "SCAC": "ATMR",
+  "ID": 39,
+  "NAME": "ATLAS MOTOR EXPRESS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb3d"
+  },
+  "SCAC": "ATSC",
+  "ID": 40,
+  "NAME": "ATS CARRIER",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb3e"
+  },
+  "SCAC": "AVRT",
+  "ID": 41,
+  "NAME": "AVERITT EXPRESS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb3f"
+  },
+  "SCAC": "BCTK",
+  "ID": 42,
+  "NAME": "B & C TRUCKING",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb40"
+  },
+  "SCAC": "BAHF",
+  "ID": 43,
+  "NAME": "B&H FREIGHT LINE",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb41"
+  },
+  "SCAC": "BAYN",
+  "ID": 44,
+  "NAME": "BAY & BAY",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb42"
+  },
+  "SCAC": "BCTA",
+  "ID": 45,
+  "NAME": "BC TRUCKING LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb43"
+  },
+  "SCAC": "BDPINT",
+  "ID": 46,
+  "NAME": "BDP INTERNATIONAL",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb44"
+  },
+  "SCAC": "BEAV",
+  "ID": 47,
+  "NAME": "BEAVER EXPRESS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb45"
+  },
+  "SCAC": "BKLI",
+  "ID": 48,
+  "NAME": "BECKER LOGISTICS, INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb46"
+  },
+  "SCAC": "BBFG",
+  "ID": 49,
+  "NAME": "BENJAMIN BEST FREIGHT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb47"
+  },
+  "SCAC": "BTNB",
+  "ID": 50,
+  "NAME": "BENTON EXPRESS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb48"
+  },
+  "SCAC": "BALO",
+  "ID": 51,
+  "NAME": "BEST BAY LOGISTICS INC.",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb49"
+  },
+  "SCAC": "BTVP",
+  "ID": 52,
+  "NAME": "BEST OVERNITE EXPRESS, INC.",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb4a"
+  },
+  "SCAC": "BYEX",
+  "ID": 53,
+  "NAME": "BEST YET EXPRESS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb4b"
+  },
+  "SCAC": "BHAURA",
+  "ID": 54,
+  "NAME": "BHAURA TRANSPORT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb4c"
+  },
+  "SCAC": "BGLF",
+  "ID": 55,
+  "NAME": "BLUE GRACE",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb4d"
+  },
+  "SCAC": "BLUE",
+  "ID": 56,
+  "NAME": "BLUEGRACE LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb4e"
+  },
+  "SCAC": "BNSF",
+  "ID": 57,
+  "NAME": "BNSF",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb4f"
+  },
+  "SCAC": "BORN",
+  "ID": 58,
+  "NAME": "BOHREN LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb50"
+  },
+  "SCAC": "BRTS",
+  "ID": 59,
+  "NAME": "BROKERAGE AND TRANSPORTATION SALES",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb51"
+  },
+  "SCAC": "BRJF",
+  "ID": 60,
+  "NAME": "BROWN TRUCKING COMPANY",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb52"
+  },
+  "SCAC": "BHRI",
+  "ID": 61,
+  "NAME": "BUCHANAN HAULING & RIGGING",
+  "MC": 306359,
+  "DOT": 649444,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb53"
+  },
+  "SCAC": "BCNL",
+  "ID": 62,
+  "NAME": "BUCHANAN LOGISTICS INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb54"
+  },
+  "SCAC": "BUNN",
+  "ID": 63,
+  "NAME": "BUCHANAN TRANSPORTATION INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb55"
+  },
+  "SCAC": "BKFB",
+  "ID": 64,
+  "NAME": "BULK FREIGHT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb56"
+  },
+  "SCAC": "CMDG",
+  "ID": 65,
+  "NAME": "C&M FORWARDING",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb57"
+  },
+  "SCAC": "RBTW",
+  "ID": 66,
+  "NAME": "C.H. ROBINSON",
+  "MC": null,
+  "DOT": 300730,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb58"
+  },
+  "SCAC": "CAIQ",
+  "ID": 67,
+  "NAME": "CAI LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb59"
+  },
+  "SCAC": "CGBI",
+  "ID": 68,
+  "NAME": "CARGOBARN INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb5a"
+  },
+  "SCAC": "CST",
+  "ID": 69,
+  "NAME": "CASE STACK",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb5b"
+  },
+  "SCAC": "CBRR",
+  "ID": 70,
+  "NAME": "CB TRANSPORT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb5c"
+  },
+  "SCAC": "CLGE",
+  "ID": 71,
+  "NAME": "CELADON TRUCKING SERVICES INC",
+  "MC": 185116,
+  "DOT": 261902,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb5d"
+  },
+  "SCAC": "CAZF",
+  "ID": 72,
+  "NAME": "CENTRAL ARIZONA FREIGHT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb5e"
+  },
+  "SCAC": "CENF",
+  "ID": 73,
+  "NAME": "CENTRAL FREIGHT LINES INC.",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb5f"
+  },
+  "SCAC": "CMKM",
+  "ID": 74,
+  "NAME": "CENTRAL MARKETING",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb60"
+  },
+  "SCAC": "CTII",
+  "ID": 75,
+  "NAME": "CENTRAL TRANSPORT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb61"
+  },
+  "SCAC": "CHKL",
+  "ID": 76,
+  "NAME": "CH COAKLEY",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb62"
+  },
+  "SCAC": "CHAP",
+  "ID": 77,
+  "NAME": "CHAPIN LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb63"
+  },
+  "SCAC": "CSEQ",
+  "ID": 78,
+  "NAME": "CHICAGO SUBURBAN EXPRESS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb64"
+  },
+  "SCAC": "CHRO",
+  "ID": 79,
+  "NAME": "CHR",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb65"
+  },
+  "SCAC": "CKGR",
+  "ID": 80,
+  "NAME": "CK LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb66"
+  },
+  "SCAC": "CLSE",
+  "ID": 81,
+  "NAME": "CL SERVICES",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb67"
+  },
+  "SCAC": "CLNI",
+  "ID": 82,
+  "NAME": "CLEAR LANE FREIGHT SYSTEMS, LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb68"
+  },
+  "SCAC": "CONT",
+  "ID": 83,
+  "NAME": "CONTINENTAL LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb69"
+  },
+  "SCAC": "CNVY",
+  "ID": 84,
+  "NAME": "CONVOY",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb6a"
+  },
+  "SCAC": "CNWY",
+  "ID": 85,
+  "NAME": "CONWAY FREIGHT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb6b"
+  },
+  "SCAC": "CLLQ",
+  "ID": 86,
+  "NAME": "COYOTE LOGISTICS LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb6c"
+  },
+  "SCAC": "CRHM",
+  "ID": 87,
+  "NAME": "CRH TRANSPORTATION",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb6d"
+  },
+  "SCAC": "CCYQ",
+  "ID": 88,
+  "NAME": "CROSS COUNTRY COURIER",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb6e"
+  },
+  "SCAC": "CRDB",
+  "ID": 89,
+  "NAME": "CROSS ROAD TRUCKING INC.",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb6f"
+  },
+  "SCAC": "CRST",
+  "ID": 90,
+  "NAME": "CRYSTAL MOTOR EXPRESS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb70"
+  },
+  "SCAC": "CE432",
+  "ID": 91,
+  "NAME": "CSD EXPRESS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb71"
+  },
+  "SCAC": "D45122",
+  "ID": 92,
+  "NAME": "D&G TRUCKING OF OHIO LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb72"
+  },
+  "SCAC": "DIFN",
+  "ID": 93,
+  "NAME": "D.I.F. INC.",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb73"
+  },
+  "SCAC": "ARCH",
+  "ID": 94,
+  "NAME": "D2 LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb74"
+  },
+  "SCAC": "DNMR",
+  "ID": 95,
+  "NAME": "DANCOR TRANSIT, INC.",
+  "MC": 167139,
+  "DOT": 230399,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb75"
+  },
+  "SCAC": "DART",
+  "ID": 96,
+  "NAME": "DART TRANSIT COMPANY",
+  "MC": 114457,
+  "DOT": 75525,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb76"
+  },
+  "SCAC": "DTST",
+  "ID": 97,
+  "NAME": "DATS TRUCKING",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb77"
+  },
+  "SCAC": "DVCG",
+  "ID": 98,
+  "NAME": "DAVIS CARTAGE CO.",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb78"
+  },
+  "SCAC": "DYLT",
+  "ID": 99,
+  "NAME": "DAYLIGHT TRANSPORT, LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb79"
+  },
+  "SCAC": "DAFG",
+  "ID": 100,
+  "NAME": "DAYTON FREIGHT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb7a"
+  },
+  "SCAC": "DBTL",
+  "ID": 101,
+  "NAME": "DBT LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb7b"
+  },
+  "SCAC": "DDPP",
+  "ID": 102,
+  "NAME": "DEDICATED DELIVERY PROFESSIONALS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb7c"
+  },
+  "SCAC": "KOPF",
+  "ID": 103,
+  "NAME": "DEDICATED GROUND LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb7d"
+  },
+  "SCAC": "DPHE",
+  "ID": 104,
+  "NAME": "DEPENDABLE HIGHWAY EXPRESS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb7e"
+  },
+  "SCAC": "LQAB",
+  "ID": 105,
+  "NAME": "DFW LINQ TRANSPORT INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb7f"
+  },
+  "SCAC": "DLDS",
+  "ID": 106,
+  "NAME": "DIAMOND LINE DELIVERY SYSTEMS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb80"
+  },
+  "SCAC": "DTSB",
+  "ID": 107,
+  "NAME": "DIVERSIFIED TRANSFER",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb81"
+  },
+  "SCAC": "DLSXXY",
+  "ID": 108,
+  "NAME": "DLS WORLDWIDE",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb82"
+  },
+  "SCAC": "DMNT",
+  "ID": 109,
+  "NAME": "DMN TRANSPORT INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb83"
+  },
+  "SCAC": "DHRN",
+  "ID": 110,
+  "NAME": "DOHRN TRANSFER COMPANY",
+  "MC": 169753,
+  "DOT": 541227,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb84"
+  },
+  "SCAC": "DLPL",
+  "ID": 111,
+  "NAME": "DOLPHIN LINE, INC.",
+  "MC": 188627,
+  "DOT": 427439,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb85"
+  },
+  "SCAC": "DOLR",
+  "ID": 112,
+  "NAME": "DOT-LINE TRANSPORTATION - CONSOLIDATOR",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb86"
+  },
+  "SCAC": "DBDE",
+  "ID": 113,
+  "NAME": "DOUBLE D EXPRESS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb87"
+  },
+  "SCAC": "DTIN",
+  "ID": 114,
+  "NAME": "DRIVEN TRANSPORT INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb88"
+  },
+  "SCAC": "DTS",
+  "ID": 115,
+  "NAME": "DTS LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb89"
+  },
+  "SCAC": "DUBL",
+  "ID": 116,
+  "NAME": "DUGAN TRUCK LINE",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb8a"
+  },
+  "SCAC": "EWCS",
+  "ID": 117,
+  "NAME": "EAST/WEST CONSOLIDATORS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb8b"
+  },
+  "SCAC": "ECHS",
+  "ID": 118,
+  "NAME": "ECHO GLOBAL LOGISTICS, INC",
+  "MC": 696804,
+  "DOT": 1967551,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb8c"
+  },
+  "SCAC": "EDXI",
+  "ID": 119,
+  "NAME": "EDI Express",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb8d"
+  },
+  "SCAC": "EFSWW",
+  "ID": 120,
+  "NAME": "EFREIGHT SOLUTIONS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb8e"
+  },
+  "SCAC": "EVLR",
+  "ID": 121,
+  "NAME": "ELEVATED LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb8f"
+  },
+  "SCAC": "EETR",
+  "ID": 122,
+  "NAME": "ELLIS + ELLIS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb90"
+  },
+  "SCAC": "EMHS",
+  "ID": 123,
+  "NAME": "EMH SERVICE. INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb91"
+  },
+  "SCAC": "ENGL",
+  "ID": 124,
+  "NAME": "ENGLAND LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb92"
+  },
+  "SCAC": "EQLC",
+  "ID": 125,
+  "NAME": "ENGLAND LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb93"
+  },
+  "SCAC": "EPES",
+  "ID": 126,
+  "NAME": "EPES TRANSPORT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb94"
+  },
+  "SCAC": "EPML",
+  "ID": 127,
+  "NAME": "EPES TRANSPORT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb95"
+  },
+  "SCAC": "ESHI",
+  "ID": 128,
+  "NAME": "ESHIPPING",
+  "MC": null,
+  "DOT": 3168101,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb96"
+  },
+  "SCAC": "EXLA",
+  "ID": 129,
+  "NAME": "ESTES EXPRESS LINES",
+  "MC": 97275,
+  "DOT": 121018,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb97"
+  },
+  "SCAC": "EFWW",
+  "ID": 130,
+  "NAME": "ESTES FORWARDING WORLDWIDE",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb98"
+  },
+  "SCAC": "EVTS",
+  "ID": 131,
+  "NAME": "EVEREST TRANSPORTATION SYSTEM, LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb99"
+  },
+  "SCAC": "EXFR",
+  "ID": 132,
+  "NAME": "EXFREIGHT Z INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb9a"
+  },
+  "SCAC": "EXDF",
+  "ID": 133,
+  "NAME": "EXPEDITED FREIGHT SYSTEMS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb9b"
+  },
+  "SCAC": "ELTI",
+  "ID": 134,
+  "NAME": "EXPRESS LANE TRUCKING INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb9c"
+  },
+  "SCAC": "EXME",
+  "ID": 135,
+  "NAME": "EXTRA TRANSPORTATION & LOGISTICS",
+  "MC": 276527,
+  "DOT": 565140,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb9d"
+  },
+  "SCAC": "FABE",
+  "ID": 136,
+  "NAME": "FAB EXPRESS INC",
+  "MC": 186291,
+  "DOT": 292372,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb9e"
+  },
+  "SCAC": "FALT",
+  "ID": 137,
+  "NAME": "FALCON TRANSPORT INC",
+  "MC": 26539,
+  "DOT": 2990013,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eb9f"
+  },
+  "SCAC": "FASR",
+  "ID": 138,
+  "NAME": "FASTRUCKING",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eba0"
+  },
+  "SCAC": "FEDCA",
+  "ID": 139,
+  "NAME": "FEDERAL CARRIERS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eba1"
+  },
+  "SCAC": "FXFE",
+  "ID": 140,
+  "NAME": "FEDEX FREIGHT",
+  "MC": 121805,
+  "DOT": 239039,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eba2"
+  },
+  "SCAC": "FXNL",
+  "ID": 141,
+  "NAME": "FEDEX FREIGHT ECONOMY",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eba3"
+  },
+  "SCAC": "FFTI",
+  "ID": 142,
+  "NAME": "FIRSTFLEET INC",
+  "MC": 193678,
+  "DOT": 313891,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eba4"
+  },
+  "SCAC": "FLMT",
+  "ID": 143,
+  "NAME": "FLAME TRANS INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eba5"
+  },
+  "SCAC": "FLWD",
+  "ID": 144,
+  "NAME": "FLEETWOOD LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eba6"
+  },
+  "SCAC": "FLAN",
+  "ID": 145,
+  "NAME": "FLO TRANS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eba7"
+  },
+  "SCAC": "FTSC",
+  "ID": 146,
+  "NAME": "FORT TRANSPORTATION",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eba8"
+  },
+  "SCAC": "FWDA",
+  "ID": 147,
+  "NAME": "FORWARD AIR, INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61eba9"
+  },
+  "SCAC": "FWDN",
+  "ID": 148,
+  "NAME": "FORWARD AIR, INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebaa"
+  },
+  "SCAC": "FWFN",
+  "ID": 149,
+  "NAME": "FORWARD FREIGHT SYSTEMS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebab"
+  },
+  "SCAC": "FRQT",
+  "ID": 150,
+  "NAME": "FREIGHT QUOTE",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebac"
+  },
+  "SCAC": "FSIX",
+  "ID": 151,
+  "NAME": "FREIGHT SYSTEMS, INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebad"
+  },
+  "SCAC": "FTAC",
+  "ID": 152,
+  "NAME": "FRONTIER TRANSPORT CORP",
+  "MC": 168959,
+  "DOT": 2099205,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebae"
+  },
+  "SCAC": "FCSY",
+  "ID": 153,
+  "NAME": "FRONTLINE FREIGHT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebaf"
+  },
+  "SCAC": "FFE",
+  "ID": 154,
+  "NAME": "FROZEN FOOD EXPRESS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebb0"
+  },
+  "SCAC": "GATI",
+  "ID": 155,
+  "NAME": "GARDNER TRUCKING, INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebb1"
+  },
+  "SCAC": "GCLN",
+  "ID": 156,
+  "NAME": "GC LINES, LLC.",
+  "MC": 807104,
+  "DOT": 2356230,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebb2"
+  },
+  "SCAC": "GLBS",
+  "ID": 157,
+  "NAME": "GLB SOLUTIONS LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebb3"
+  },
+  "SCAC": "GLTI",
+  "ID": 158,
+  "NAME": "GLOBAL LOGISTICS AND TRANSPORTATION",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebb4"
+  },
+  "SCAC": "GBSV",
+  "ID": 159,
+  "NAME": "GLOBAL SERVICE",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebb5"
+  },
+  "SCAC": "GELJ",
+  "ID": 160,
+  "NAME": "GLOBALTRANZ ENTERPRISES LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebb6"
+  },
+  "SCAC": "GVKC",
+  "ID": 161,
+  "NAME": "GLOVA-LINK",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebb7"
+  },
+  "SCAC": "GFLR",
+  "ID": 162,
+  "NAME": "GO FREIGHT LOGISTICS & TRUCKING LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebb8"
+  },
+  "SCAC": "GLDF",
+  "ID": 163,
+  "NAME": "GOLD COAST FREIGHTWAYS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebb9"
+  },
+  "SCAC": "GOLD",
+  "ID": 164,
+  "NAME": "GOLD EAGLE TRANSPORTATION INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebba"
+  },
+  "SCAC": "GWLL",
+  "ID": 165,
+  "NAME": "GREASE WHEEL LOGISTICS LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebbb"
+  },
+  "SCAC": "GLTS",
+  "ID": 166,
+  "NAME": "GREAT LAKES TRANSPORT SOLUTIONS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebbc"
+  },
+  "SCAC": "ATGL",
+  "ID": 167,
+  "NAME": "GREATWIDE AMERICAN TRANS - FREIGHT LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebbd"
+  },
+  "SCAC": "GFMN",
+  "ID": 168,
+  "NAME": "GULFSTREAM LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebbe"
+  },
+  "SCAC": "HMB",
+  "ID": 169,
+  "NAME": "H & M BAY",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebbf"
+  },
+  "SCAC": "HTXP",
+  "ID": 170,
+  "NAME": "H T EXPRESS, INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebc0"
+  },
+  "SCAC": "HBV",
+  "ID": 171,
+  "NAME": "HANDLED BY VENDOR",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebc1"
+  },
+  "SCAC": "HPLG",
+  "ID": 172,
+  "NAME": "HELP LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebc2"
+  },
+  "SCAC": "HKTS",
+  "ID": 173,
+  "NAME": "HICKORY TRANSPORTATION SERVICES",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebc3"
+  },
+  "SCAC": "HFAW",
+  "ID": 174,
+  "NAME": "HOOSIER FREIGHT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebc4"
+  },
+  "SCAC": "HHWY",
+  "ID": 175,
+  "NAME": "HUB GROUP",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebc5"
+  },
+  "SCAC": "IDEINC",
+  "ID": 176,
+  "NAME": "IDEALITY INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebc6"
+  },
+  "SCAC": "IMPL",
+  "ID": 177,
+  "NAME": "IMPERIAL LOGISTICS LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebc7"
+  },
+  "SCAC": "ILDR",
+  "ID": 178,
+  "NAME": "INLAND STAR",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebc8"
+  },
+  "SCAC": "IELI",
+  "ID": 179,
+  "NAME": "INTEGRITY EXPRESS LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebc9"
+  },
+  "SCAC": "GTZT",
+  "ID": 180,
+  "NAME": "INTERNAL TARIFF",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebca"
+  },
+  "SCAC": "IBCQ",
+  "ID": 181,
+  "NAME": "INTERNATIONAL BONDED COURIER",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebcb"
+  },
+  "SCAC": "INT",
+  "ID": 182,
+  "NAME": "INTERSTATE",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebcc"
+  },
+  "SCAC": "ITSL",
+  "ID": 183,
+  "NAME": "ITS LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebcd"
+  },
+  "SCAC": "JJTR",
+  "ID": 184,
+  "NAME": "J&J TRANSPORTATION",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebce"
+  },
+  "SCAC": "JKRG",
+  "ID": 185,
+  "NAME": "JACKRABBIT LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebcf"
+  },
+  "SCAC": "JDPT",
+  "ID": 186,
+  "NAME": "JADPAK TRUCKING LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebd0"
+  },
+  "SCAC": "JATV",
+  "ID": 187,
+  "NAME": "JAT OF FORT WAYNE",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebd1"
+  },
+  "SCAC": "HJBT",
+  "ID": 188,
+  "NAME": "JB HUNT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebd2"
+  },
+  "SCAC": "DAZJ",
+  "ID": 189,
+  "NAME": "JESS DIAZ TRUCKING, INC.",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebd3"
+  },
+  "SCAC": "JPXPRS",
+  "ID": 190,
+  "NAME": "JP EXPRESS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebd4"
+  },
+  "SCAC": "KNAH",
+  "ID": 191,
+  "NAME": "KANIA INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebd5"
+  },
+  "SCAC": "KMLK",
+  "ID": 192,
+  "NAME": "KARMA LOGISTICS INC.",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebd6"
+  },
+  "SCAC": "KCCTS",
+  "ID": 193,
+  "NAME": "KCC TRANSPORTATION SYSTEMS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebd7"
+  },
+  "SCAC": "KFOR",
+  "ID": 194,
+  "NAME": "KFORCE EXPRESS INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebd8"
+  },
+  "SCAC": "KIDG",
+  "ID": 195,
+  "NAME": "KID GLOVE SERVICE, LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebd9"
+  },
+  "SCAC": "KGEX",
+  "ID": 196,
+  "NAME": "KINGS EXPRESS VPTL",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebda"
+  },
+  "SCAC": "KING",
+  "ID": 197,
+  "NAME": "KINGSGATE TRANSPORTATION SVCS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebdb"
+  },
+  "SCAC": "KIWY",
+  "ID": 198,
+  "NAME": "KINGSWAY LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebdc"
+  },
+  "SCAC": "KNIG",
+  "ID": 199,
+  "NAME": "KNIGHT TRANSPORTATION SERVICES, INC.",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebdd"
+  },
+  "SCAC": "00KT",
+  "ID": 200,
+  "NAME": "KOVAL TRANSPORT, LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebde"
+  },
+  "SCAC": "LKVL",
+  "ID": 201,
+  "NAME": "LAKEVILLE MOTOR EXPRESS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebdf"
+  },
+  "SCAC": "LAXV",
+  "ID": 202,
+  "NAME": "LAND AIR EXPRESS OF NEW ENGLAND",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebe0"
+  },
+  "SCAC": "LAND",
+  "ID": 203,
+  "NAME": "LANDSTAR TRANSPORTATION LOGISTICS, INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebe1"
+  },
+  "SCAC": "LN00",
+  "ID": 204,
+  "NAME": "LANES",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebe2"
+  },
+  "SCAC": "LBYQ",
+  "ID": 205,
+  "NAME": "LIBERTY SOLUTIONS LOGISTICS LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebe3"
+  },
+  "SCAC": "LINE",
+  "ID": 206,
+  "NAME": "LINECOR",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebe4"
+  },
+  "SCAC": "LMEL",
+  "ID": 207,
+  "NAME": "LME",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebe5"
+  },
+  "SCAC": "LGFX",
+  "ID": 208,
+  "NAME": "LOGIFLEX INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebe6"
+  },
+  "SCAC": "LDYN",
+  "ID": 209,
+  "NAME": "LOGISTIC DYNAMICS INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebe7"
+  },
+  "SCAC": "LGOA",
+  "ID": 210,
+  "NAME": "LOGISTIC GROUP OF AMERICA",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebe8"
+  },
+  "SCAC": "LGOM",
+  "ID": 211,
+  "NAME": "LOGISTIC GROUP OF AMERICA",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebe9"
+  },
+  "SCAC": "LDI",
+  "ID": 212,
+  "NAME": "LOGISTICS DYNAMICS (LDI)",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebea"
+  },
+  "SCAC": "LT",
+  "ID": 213,
+  "NAME": "LT TRUCKING",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebeb"
+  },
+  "SCAC": "LTEI",
+  "ID": 214,
+  "NAME": "LTL EXPRESS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebec"
+  },
+  "SCAC": "MAGC",
+  "ID": 215,
+  "NAME": "MAG CARRIERS, LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebed"
+  },
+  "SCAC": "MNUM",
+  "ID": 216,
+  "NAME": "MAGNUM",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebee"
+  },
+  "SCAC": "MFSY",
+  "ID": 217,
+  "NAME": "MANNA DISTRIBUTION SERVICES",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebef"
+  },
+  "SCAC": "MATSON",
+  "ID": 218,
+  "NAME": "MATSON LOGISTICS SERVICES",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebf0"
+  },
+  "SCAC": "MEI329",
+  "ID": 219,
+  "NAME": "MAXLINE EXPRESS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebf1"
+  },
+  "SCAC": "MSYM",
+  "ID": 220,
+  "NAME": "MC SYSTEMS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebf2"
+  },
+  "SCAC": "MCAY",
+  "ID": 221,
+  "NAME": "MCNAY TRUCK LINE",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebf3"
+  },
+  "SCAC": "MWGC",
+  "ID": 222,
+  "NAME": "MCS TRUCKING INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebf4"
+  },
+  "SCAC": "MWLK",
+  "ID": 223,
+  "NAME": "MEADOW LARK AGENCY INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebf5"
+  },
+  "SCAC": "MEKR",
+  "ID": 224,
+  "NAME": "MEADOW LARK TRANSPORT INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebf6"
+  },
+  "SCAC": "MGTX",
+  "ID": 225,
+  "NAME": "MEGA TRUX",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebf7"
+  },
+  "SCAC": "MGPG",
+  "ID": 226,
+  "NAME": "MEGACORP LOGISTICS LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebf8"
+  },
+  "SCAC": "MWWG",
+  "ID": 227,
+  "NAME": "METROPOLITAN WAREHOUSE AND DELIVERY",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebf9"
+  },
+  "SCAC": "MWDP",
+  "ID": 228,
+  "NAME": "METROPOLITAN WAREHOUSE AND DELIVERY",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebfa"
+  },
+  "SCAC": "MIDA",
+  "ID": 229,
+  "NAME": "MID AMERICA LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebfb"
+  },
+  "SCAC": "MIDMTV",
+  "ID": 230,
+  "NAME": "MID OHIO EXPRESS LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebfc"
+  },
+  "SCAC": "MIDW",
+  "ID": 231,
+  "NAME": "MIDWEST MOTOR EXPRESS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebfd"
+  },
+  "SCAC": "MMEI",
+  "ID": 232,
+  "NAME": "MIDWEST MOTOR EXPRESS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebfe"
+  },
+  "SCAC": "MTLE",
+  "ID": 233,
+  "NAME": "MODE TRANSPORTATION LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ebff"
+  },
+  "SCAC": "MONC",
+  "ID": 234,
+  "NAME": "MONROE TRANSPORTATION SERVICES",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec00"
+  },
+  "SCAC": "MTJG",
+  "ID": 235,
+  "NAME": "MORAN TRANSPORTATION",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec01"
+  },
+  "SCAC": "MTVW",
+  "ID": 236,
+  "NAME": "MOTO TRANSPORTATION SERVICES",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec02"
+  },
+  "SCAC": "MTVL",
+  "ID": 237,
+  "NAME": "MOUNTAIN VALLEY EXPRESS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec03"
+  },
+  "SCAC": "MTH",
+  "ID": 238,
+  "NAME": "MTH",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec04"
+  },
+  "SCAC": "NMTF",
+  "ID": 239,
+  "NAME": "N&M TRANSFER CO",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec05"
+  },
+  "SCAC": "NAWI",
+  "ID": 240,
+  "NAME": "NATION WIDW LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec06"
+  },
+  "SCAC": "NALO",
+  "ID": 241,
+  "NAME": "NATIONWIDE LOGISTICS LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec07"
+  },
+  "SCAC": "NEBT",
+  "ID": 242,
+  "NAME": "NEBRASKA TRANSPORT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec08"
+  },
+  "SCAC": "NCTA",
+  "ID": 243,
+  "NAME": "NEW CENTURY",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec09"
+  },
+  "SCAC": "NPME",
+  "ID": 244,
+  "NAME": "NEW PENN",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec0a"
+  },
+  "SCAC": "NWSJ",
+  "ID": 245,
+  "NAME": "NEW SOUND TRANSPORTATION (NTS)",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec0b"
+  },
+  "SCAC": "NFBG",
+  "ID": 246,
+  "NAME": "NF BROKERAGE",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec0c"
+  },
+  "SCAC": "NTGO",
+  "ID": 247,
+  "NAME": "NOLAN TRANSPORTATION GROUP",
+  "MC": 370333,
+  "DOT": 837621,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec0d"
+  },
+  "SCAC": "NOTS",
+  "ID": 248,
+  "NAME": "NOTS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec0e"
+  },
+  "SCAC": "NYCI",
+  "ID": 249,
+  "NAME": "NYCE TRUCKING",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec0f"
+  },
+  "SCAC": "OAKH",
+  "ID": 250,
+  "NAME": "OAK HARBOR",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec10"
+  },
+  "SCAC": "OKLE",
+  "ID": 251,
+  "NAME": "OAKLINE",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec11"
+  },
+  "SCAC": "OFSD",
+  "ID": 252,
+  "NAME": "OCA FREIGHT SYSTEMS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec12"
+  },
+  "SCAC": "OERT",
+  "ID": 253,
+  "NAME": "OEC CHICAGO",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec13"
+  },
+  "SCAC": "ODFL",
+  "ID": 254,
+  "NAME": "OLD DOMINION",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec14"
+  },
+  "SCAC": "OTTI",
+  "ID": 255,
+  "NAME": "ON TIME TRUCKIN, INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec15"
+  },
+  "SCAC": "OPLB",
+  "ID": 256,
+  "NAME": "ONE POINT LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec16"
+  },
+  "SCAC": "ORWG",
+  "ID": 257,
+  "NAME": "ORION AIR RIDE",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec17"
+  },
+  "SCAC": "OROZ",
+  "ID": 258,
+  "NAME": "OROZCO TRUCKING, INC.",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec18"
+  },
+  "SCAC": "OZRK",
+  "ID": 259,
+  "NAME": "OZARK MOTOR LINES, INC.",
+  "MC": 119837,
+  "DOT": 96606,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec19"
+  },
+  "SCAC": "PMLI",
+  "ID": 260,
+  "NAME": "PACE MOTOR LINES",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec1a"
+  },
+  "SCAC": "PCRI",
+  "ID": 261,
+  "NAME": "PACE RUNNERS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec1b"
+  },
+  "SCAC": "PFRH",
+  "ID": 262,
+  "NAME": "PACWEST FREIGHT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec1c"
+  },
+  "SCAC": "PANA",
+  "ID": 263,
+  "NAME": "PANAMA TRANSFER",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec1d"
+  },
+  "SCAC": "PTWT",
+  "ID": 264,
+  "NAME": "PANTHER PREMIUM LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec1e"
+  },
+  "SCAC": "PTRL",
+  "ID": 265,
+  "NAME": "PASCHALL TRUCK LINES",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec1f"
+  },
+  "SCAC": "PBLS",
+  "ID": 266,
+  "NAME": "PB LOGISTICS SERVICES LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec20"
+  },
+  "SCAC": "TREHG",
+  "ID": 267,
+  "NAME": "PENINSULA TRUCK LINES",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec21"
+  },
+  "SCAC": "PFEG",
+  "ID": 268,
+  "NAME": "PERFORMANCE FREIGHT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec22"
+  },
+  "SCAC": "PRSM",
+  "ID": 269,
+  "NAME": "PILLARS TRANSPORT INC.",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec23"
+  },
+  "SCAC": "PITD",
+  "ID": 270,
+  "NAME": "PITT OHIO EXPRESS",
+  "MC": 30136,
+  "DOT": 190180,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec24"
+  },
+  "SCAC": "PRI",
+  "ID": 271,
+  "NAME": "PRIORITY 1",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec25"
+  },
+  "SCAC": "PUBI",
+  "ID": 272,
+  "NAME": "PUBLIC SPECIAL COMMODITY DIVISION INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec26"
+  },
+  "SCAC": "PBLL",
+  "ID": 273,
+  "NAME": "PUNJAB BULLET LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec27"
+  },
+  "SCAC": "QRKQ",
+  "ID": 274,
+  "NAME": "QUARTERBACK TRANSPORTATION INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec28"
+  },
+  "SCAC": "RLKS",
+  "ID": 275,
+  "NAME": "R + L TRUCKLOAD SERVICES LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec29"
+  },
+  "SCAC": "RNLO",
+  "ID": 276,
+  "NAME": "R&L CARRIERS",
+  "MC": 17155,
+  "DOT": 2987033,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec2a"
+  },
+  "SCAC": "RPLOG",
+  "ID": 277,
+  "NAME": "R&P LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec2b"
+  },
+  "SCAC": "RLCA",
+  "ID": 278,
+  "NAME": "R+L CARRIERS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec2c"
+  },
+  "SCAC": "RACP",
+  "ID": 279,
+  "NAME": "RAC TRANSPORT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec2d"
+  },
+  "SCAC": "RCLOG",
+  "ID": 280,
+  "NAME": "RC LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec2e"
+  },
+  "SCAC": "RETL",
+  "ID": 281,
+  "NAME": "REDDAWAY",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec2f"
+  },
+  "SCAC": "REDP",
+  "ID": 282,
+  "NAME": "REDDING LUMBER TRANSPORT, INC",
+  "MC": 146965,
+  "DOT": 134171,
+  "FEIN": 94
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec30"
+  },
+  "SCAC": "RECO",
+  "ID": 283,
+  "NAME": "REFRIGERATED CONCEPTS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec31"
+  },
+  "SCAC": "RXML",
+  "ID": 284,
+  "NAME": "REPUBLIX MOTOR LINES",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec32"
+  },
+  "SCAC": "RGPO",
+  "ID": 285,
+  "NAME": "RG TRANSPORT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec33"
+  },
+  "SCAC": "RISI",
+  "ID": 286,
+  "NAME": "RISINGER BROTHERS TRANSFER INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec34"
+  },
+  "SCAC": "RWTP",
+  "ID": 287,
+  "NAME": "RITE WAY LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec35"
+  },
+  "SCAC": "RCRV",
+  "ID": 288,
+  "NAME": "RIVER CITY RUSH DELIVERY, INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec36"
+  },
+  "SCAC": "RJCA",
+  "ID": 289,
+  "NAME": "RJ CARGO INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec37"
+  },
+  "SCAC": "RMXG",
+  "ID": 290,
+  "NAME": "RMX GLOBAL LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec38"
+  },
+  "SCAC": "RINO",
+  "ID": 291,
+  "NAME": "ROADONE LOGISTICS SOLUTIONS LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec39"
+  },
+  "SCAC": "RDFS",
+  "ID": 292,
+  "NAME": "ROADRUNNER TRANSPORTATION SERVICES",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec3a"
+  },
+  "SCAC": "RXIC",
+  "ID": 293,
+  "NAME": "ROSS EXPRESS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec3b"
+  },
+  "SCAC": "RPMI",
+  "ID": 294,
+  "NAME": "RPM TRANSPORTATION",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec3c"
+  },
+  "SCAC": "RTSC",
+  "ID": 295,
+  "NAME": "RTS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec3d"
+  },
+  "SCAC": "RUDE",
+  "ID": 296,
+  "NAME": "RUDE TRANSPORTATION",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec3e"
+  },
+  "SCAC": "RYNK",
+  "ID": 297,
+  "NAME": "RYAN TRANSPORTATION",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec3f"
+  },
+  "SCAC": "SAIA",
+  "ID": 298,
+  "NAME": "SAIA",
+  "MC": 87511,
+  "DOT": 29124,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec40"
+  },
+  "SCAC": "EXPL",
+  "ID": 299,
+  "NAME": "SAP LOGISTICS LLC DBA EXPRESSIT LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec41"
+  },
+  "SCAC": "SCHN",
+  "ID": 300,
+  "NAME": "SCHNEIDER",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec42"
+  },
+  "SCAC": "SCNN",
+  "ID": 301,
+  "NAME": "SCHNEIDER NATIONAL CARRIERS INC",
+  "MC": 133655,
+  "DOT": 264184,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec43"
+  },
+  "SCAC": "SLCY",
+  "ID": 302,
+  "NAME": "SCHNEIDER NATIONAL CARRIERS INC",
+  "MC": 133655,
+  "DOT": 264184,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec44"
+  },
+  "SCAC": "SCTL",
+  "ID": 303,
+  "NAME": "SCOTLYNN USA",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec45"
+  },
+  "SCAC": "SVBA",
+  "ID": 304,
+  "NAME": "SERVICE BY AIR, INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec46"
+  },
+  "SCAC": "SDTR",
+  "ID": 305,
+  "NAME": "SERVICE DRIVEN TRANSPORT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec47"
+  },
+  "SCAC": "SFPI",
+  "ID": 306,
+  "NAME": "SF/LA EXPRESS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec48"
+  },
+  "SCAC": "SHIF",
+  "ID": 307,
+  "NAME": "SHIFT FREIGHT - ASSET LITE",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec49"
+  },
+  "SCAC": "BNGL",
+  "ID": 308,
+  "NAME": "SHIPEX LOGISTICS, LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec4a"
+  },
+  "SCAC": "SIDH",
+  "ID": 309,
+  "NAME": "SIDHU INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec4b"
+  },
+  "SCAC": "SIDHU",
+  "ID": 310,
+  "NAME": "SIDHU TREK TRANSPORT INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec4c"
+  },
+  "SCAC": "SITS",
+  "ID": 311,
+  "NAME": "SIDNEY TRANSPORTATION SERVICES",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec4d"
+  },
+  "SCAC": "SITR",
+  "ID": 312,
+  "NAME": "SILWADY TRUCKING",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec4e"
+  },
+  "SCAC": "SLYT",
+  "ID": 313,
+  "NAME": "SILWADY TRUCKING, INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec4f"
+  },
+  "SCAC": "SININC",
+  "ID": 314,
+  "NAME": "SINGH IS KING",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec50"
+  },
+  "SCAC": "NOS1",
+  "ID": 315,
+  "NAME": "SMART TRANSPORT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec51"
+  },
+  "SCAC": "SCTP",
+  "ID": 316,
+  "NAME": "SMITH TRANSPORTATION",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec52"
+  },
+  "SCAC": "STVQ",
+  "ID": 317,
+  "NAME": "SOURCEONE",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec53"
+  },
+  "SCAC": "SBFT",
+  "ID": 318,
+  "NAME": "SOUTH BAY FREIGHT - ACCOUNTS PAYABLE",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec54"
+  },
+  "SCAC": "SEFL",
+  "ID": 319,
+  "NAME": "SOUTHEASTERN FREIGHT LINES",
+  "MC": 111871,
+  "DOT": 63419,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec55"
+  },
+  "SCAC": "SMTL",
+  "ID": 320,
+  "NAME": "SOUTHWESTERN MOTOR TRANSPORT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec56"
+  },
+  "SCAC": "SDDS",
+  "ID": 321,
+  "NAME": "SPEE-DEE DELIVERY SERVICE INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec57"
+  },
+  "SCAC": "SPDT",
+  "ID": 322,
+  "NAME": "SPEEDTRANS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec58"
+  },
+  "SCAC": "SPES",
+  "ID": 323,
+  "NAME": "SPES LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec59"
+  },
+  "SCAC": "STDF",
+  "ID": 324,
+  "NAME": "STANDARD FORWARDING",
+  "MC": 16536,
+  "DOT": 1996747,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec5a"
+  },
+  "SCAC": "SUNT",
+  "ID": 325,
+  "NAME": "SUNTECK TRANSPORT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec5b"
+  },
+  "SCAC": "SVSE",
+  "ID": 326,
+  "NAME": "SUPER VAN",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec5c"
+  },
+  "SCAC": "SVXL",
+  "ID": 327,
+  "NAME": "SUPERIOR SERVICE TRANSPORT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec5d"
+  },
+  "SCAC": "SUON",
+  "ID": 328,
+  "NAME": "SUTTON TRANSPORT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec5e"
+  },
+  "SCAC": "SWEY",
+  "ID": 329,
+  "NAME": "SWEENEY TRANSPORTATION",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec5f"
+  },
+  "SCAC": "SWFT",
+  "ID": 330,
+  "NAME": "SWIFT TRANSPORTATION CO., INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec60"
+  },
+  "SCAC": "TATT",
+  "ID": 331,
+  "NAME": "TAT TRANSPORT LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec61"
+  },
+  "SCAC": "TAUR",
+  "ID": 332,
+  "NAME": "TAURUS TRANS INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec62"
+  },
+  "SCAC": "TYMD",
+  "ID": 333,
+  "NAME": "TAYLOR'S MADE",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec63"
+  },
+  "SCAC": "TBCK",
+  "ID": 334,
+  "NAME": "TBC TRUCKING CORP",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec64"
+  },
+  "SCAC": "TEAM",
+  "ID": 335,
+  "NAME": "TEAM WORLDWIDE",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec65"
+  },
+  "SCAC": "TEHT",
+  "ID": 336,
+  "NAME": "TECHNICAL TRANSPORTATION, INC.",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec66"
+  },
+  "SCAC": "CTBV",
+  "ID": 337,
+  "NAME": "THE CUSTOM COMPANIES",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec67"
+  },
+  "SCAC": "TLTL",
+  "ID": 338,
+  "NAME": "TLT LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec68"
+  },
+  "SCAC": "NDTL",
+  "ID": 339,
+  "NAME": "TOTAL LOGISTICS CONTROL INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec69"
+  },
+  "SCAC": "TQYL",
+  "ID": 340,
+  "NAME": "TOTAL QUALITY LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec6a"
+  },
+  "SCAC": "TOTL",
+  "ID": 341,
+  "NAME": "TOTAL TRANSPORTATION",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec6b"
+  },
+  "SCAC": "TOWE",
+  "ID": 342,
+  "NAME": "TOWNE AIR FREIGHT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec6c"
+  },
+  "SCAC": "TQL",
+  "ID": 343,
+  "NAME": "TQL",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec6d"
+  },
+  "SCAC": "TRLO",
+  "ID": 344,
+  "NAME": "TRADEX LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec6e"
+  },
+  "SCAC": "TFCH",
+  "ID": 345,
+  "NAME": "TRAFFIC TECH INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec6f"
+  },
+  "SCAC": "TRBL",
+  "ID": 346,
+  "NAME": "TRANSBORDER LOGISTICS S.A. DE CV",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec70"
+  },
+  "SCAC": "TRCR",
+  "ID": 347,
+  "NAME": "TRANSCORR LLC",
+  "MC": 311135,
+  "DOT": 670782,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec71"
+  },
+  "SCAC": "TGEX",
+  "ID": 348,
+  "NAME": "TRANSGROUP EXPRESS LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec72"
+  },
+  "SCAC": "TRID",
+  "ID": 349,
+  "NAME": "TRIDENT TRANSPORT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec73"
+  },
+  "SCAC": "TRIP",
+  "ID": 350,
+  "NAME": "TRIPLET TRANSPORT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec74"
+  },
+  "SCAC": "TRILOG",
+  "ID": 351,
+  "NAME": "TRITON LOGISTICS,INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec75"
+  },
+  "SCAC": "TKOI",
+  "ID": 352,
+  "NAME": "TRUCK ONE, INC.",
+  "MC": 156327,
+  "DOT": 203287,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec76"
+  },
+  "SCAC": "TRYH",
+  "ID": 353,
+  "NAME": "TRY HOURS, INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec77"
+  },
+  "SCAC": "TFMS",
+  "ID": 354,
+  "NAME": "TWIN FORKS MOVING AND STORAGE",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec78"
+  },
+  "SCAC": "UFLB",
+  "ID": 355,
+  "NAME": "UBER FREIGHT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec79"
+  },
+  "SCAC": "UFWL",
+  "ID": 356,
+  "NAME": "ULTIMATE FREIGHTWAYS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec7a"
+  },
+  "SCAC": "UTPA",
+  "ID": 357,
+  "NAME": "UNIS TRANSPORTATION",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec7b"
+  },
+  "SCAC": "NNNNN",
+  "ID": 358,
+  "NAME": "UNISHIPPERS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec7c"
+  },
+  "SCAC": "XPED",
+  "ID": 359,
+  "NAME": "UNISOURCE WORLDWIDE INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec7d"
+  },
+  "SCAC": "USFT",
+  "ID": 360,
+  "NAME": "UNITED STATES FREIGHT AND TRANSFER LLC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec7e"
+  },
+  "SCAC": "UNTS",
+  "ID": 361,
+  "NAME": "UNITED TRANSIT INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec7f"
+  },
+  "SCAC": "DYNS",
+  "ID": 362,
+  "NAME": "UNITED VISION LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec80"
+  },
+  "SCAC": "HTFO",
+  "ID": 363,
+  "NAME": "UNITED WAREHOUSES",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec81"
+  },
+  "SCAC": "UPGF",
+  "ID": 364,
+  "NAME": "UPS FREIGHT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec82"
+  },
+  "SCAC": "UPPN",
+  "ID": 365,
+  "NAME": "US SPECIAL DELIVERY",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec83"
+  },
+  "SCAC": "HMES",
+  "ID": 366,
+  "NAME": "USF HOLLAND",
+  "MC": 59206,
+  "DOT": 75806,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec84"
+  },
+  "SCAC": "VALC",
+  "ID": 367,
+  "NAME": "VALLEY CARTAGE",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec85"
+  },
+  "SCAC": "VDIT",
+  "ID": 368,
+  "NAME": "VD INTERNATIONAL TRUCKING, LLC.",
+  "MC": 894021,
+  "DOT": 1943505,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec86"
+  },
+  "SCAC": "VELO",
+  "ID": 369,
+  "NAME": "VELOCITY TRANSPORT",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec87"
+  },
+  "SCAC": "VOCB",
+  "ID": 370,
+  "NAME": "VERITIV OPERATING COMPANY",
+  "MC": 384595,
+  "DOT": 310582,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec88"
+  },
+  "SCAC": "VOLP",
+  "ID": 371,
+  "NAME": "VOLPE",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec89"
+  },
+  "SCAC": "VOLT",
+  "ID": 372,
+  "NAME": "VOLUNTEER EXPRESS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec8a"
+  },
+  "SCAC": "VSEI",
+  "ID": 373,
+  "NAME": "VS EXPRESS, INC.",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec8b"
+  },
+  "SCAC": "WARD",
+  "ID": 374,
+  "NAME": "WARD TRUCKING",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec8c"
+  },
+  "SCAC": "WASH",
+  "ID": 375,
+  "NAME": "WATKINS & SHEPARD - ACCOUNTS PAYABLE",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec8d"
+  },
+  "SCAC": "WKSH",
+  "ID": 376,
+  "NAME": "WATKINS AND SHEPARD TRUCKING",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec8e"
+  },
+  "SCAC": "WEBE",
+  "ID": 377,
+  "NAME": "WEST BEND TRANSIT & SERVICE CO.",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec8f"
+  },
+  "SCAC": "WSGS",
+  "ID": 378,
+  "NAME": "WEST SIDE TRANSPORT",
+  "MC": 160875,
+  "DOT": 165881,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec90"
+  },
+  "SCAC": "WSTJ",
+  "ID": 379,
+  "NAME": "WHITE START TRANSPORT INC",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec91"
+  },
+  "SCAC": "SDRW",
+  "ID": 380,
+  "NAME": "WILEY SANDERS TRUCK LINES INC",
+  "MC": 138882,
+  "DOT": 122275,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec92"
+  },
+  "SCAC": "WBLR",
+  "ID": 381,
+  "NAME": "WILKINSON BRANCH LLC.",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec93"
+  },
+  "SCAC": "WTVA",
+  "ID": 382,
+  "NAME": "WILSON TRUCKING",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec94"
+  },
+  "SCAC": "WWEX",
+  "ID": 383,
+  "NAME": "WORLDWIDE EXPRESS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec95"
+  },
+  "SCAC": "WISW",
+  "ID": 384,
+  "NAME": "WORLDWIDE INTEGRATED SUPPLY CHAIN SOLUTIONS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec96"
+  },
+  "SCAC": "WRLY",
+  "ID": 385,
+  "NAME": "WORLEY TRANSPORTATION",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec97"
+  },
+  "SCAC": "XPOL",
+  "ID": 386,
+  "NAME": "XPO LOGISTICS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec98"
+  },
+  "SCAC": "XGSI",
+  "ID": 387,
+  "NAME": "XPRESS GLOBAL SYSTEMS",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec99"
+  },
+  "SCAC": "RDWY",
+  "ID": 388,
+  "NAME": "YRC FREIGHT Modified",
+  "MC": 0,
+  "DOT": 0,
+  "FEIN": 0
+},{
+  "_id": {
+    "$oid": "5ef8ef40c77611282c61ec9a"
+  },
+  "SCAC": "YRCA",
+  "ID": 389,
+  "NAME": "YRC FREIGHT ACCELERATED MODIFIED 2",
+  "MC": null,
+  "DOT": null,
+  "FEIN": null
+},{
+  "_id": {
+    "$oid": "5ef9163e2f82564764d77980"
+  },
+  "ID": null,
+  "SCAC": "test scac",
+  "NAME": "test name",
+  "MC": 123456,
+  "DOT": 123456,
+  "FEIN": null
+}]

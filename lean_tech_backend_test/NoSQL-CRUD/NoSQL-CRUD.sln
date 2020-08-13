@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoSQL-CRUD", "sql-CRUD\NoSQL-CRUD.csproj", "{48D8CCB2-C30D-499C-B74C-087666E1550E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48D8CCB2-C30D-499C-B74C-087666E1550E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D8CCB2-C30D-499C-B74C-087666E1550E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D8CCB2-C30D-499C-B74C-087666E1550E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D8CCB2-C30D-499C-B74C-087666E1550E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A36AE79D-3FD0-4FB9-8164-876DE1469080}
+	EndGlobalSection
+EndGlobal
