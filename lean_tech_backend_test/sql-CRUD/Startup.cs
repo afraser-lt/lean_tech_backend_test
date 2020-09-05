@@ -1,10 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -28,6 +23,9 @@ namespace sql_CRUD
         {
             services.AddControllersWithViews();
 
+            //services.AddDbContext<TestdbContext>(options =>
+            //options.UseSqlServer(Configuration.GetConnectionString("ConnectionString")));
+
             // Register the Swagger Generator service. This service is responsible for genrating Swagger Documents.
             // Note: Add this service at the end after AddMvc() or AddMvcCore().
             services.AddSwaggerGen(c =>
@@ -48,8 +46,14 @@ namespace sql_CRUD
                 });
             });
 
-            services.AddTransient<IShipmentSerivice,ShipmentService>();
+            services.AddTransient<IShipmentSerivice, ShipmentService>();
             services.AddTransient<ICarrierService, CarrierService>();
+            services.AddTransient<IBOLService, BOLService>();
+            services.AddTransient<ICustomerService, CustomerService>();
+            services.AddTransient<IOrderService, OrderService>();
+            services.AddTransient<IPackaginTypeService, PackaginType>();
+            services.AddTransient<IReceiverService, ReceiverService>();
+            services.AddTransient<ICustomerOderService, CustomerOrderService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

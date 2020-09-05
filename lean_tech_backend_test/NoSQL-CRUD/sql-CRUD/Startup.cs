@@ -1,16 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using sql_CRUD.Core;
-using sql_CRUD.Services.Interfaces;
+using nosql_CRUD.Services;
+using nosql_CRUD.Services.Interfaces;
 
 namespace sql_CRUD
 {
@@ -48,8 +43,14 @@ namespace sql_CRUD
                 });
             });
 
-            services.AddTransient<IShipmentSerivice,ShipmentService>();
+            services.AddTransient<IShipmentSerivice, ShipmentService>();
             services.AddTransient<ICarrierService, CarrierService>();
+            services.AddTransient<IBOLService, BOLService>();
+            services.AddTransient<ICustomerService, CustomerService>();
+            services.AddTransient<IOrderService, OrderService>();
+            services.AddTransient<IPackaginTypeService, PackaginType>();
+            services.AddTransient<IReceiverService, ReceiverService>();
+            services.AddTransient<ICustomerOderService, CustomerOrderService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

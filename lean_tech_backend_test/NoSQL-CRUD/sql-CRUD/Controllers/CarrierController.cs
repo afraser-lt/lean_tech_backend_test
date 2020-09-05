@@ -1,12 +1,14 @@
-﻿namespace sql_CRUD.Controllers
+﻿// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
+namespace sql_CRUD.Controllers
 {
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.Extensions.Configuration;
-    using sql_CRUD.Models;
-    using sql_CRUD.Services.Interfaces;
+    using nosql_CRUD.Models;
+    using nosql_CRUD.Services.Interfaces;
     using System;
 
-    [Route("nosql/[controller]")]
+    [Route("sql/[controller]")]
     [ApiController]
     public class CarrierController : ControllerBase
     {
@@ -19,14 +21,16 @@
             this.carrierService = carrierService;
         }
 
-        // GET: api/<CarrierController>
+        /// <summary>
+        /// Returns all existing carriers
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IActionResult Get()
         {
             try
             {
-                var carriers = carrierService.GetCarriers();
-                //JObject json = JObject.Parse(carriers);
+                var carriers = carrierService.GetAll();
                 return Ok(carriers);
             }
             catch (Exception ex)
@@ -35,13 +39,17 @@
             }
         }
 
-        // GET api/<CarrierController>/5
+        /// <summary>
+        /// Get a carrier by ID
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]
-        public IActionResult Get(int id)
+        public IActionResult Get(string id)
         {
             try
             {
-                var carriers = carrierService.GetCarriers(id);
+                var carriers = carrierService.Find(id);
                 return Ok(carriers);
             }
             catch (Exception ex)
@@ -50,14 +58,18 @@
             }
         }
 
-        // POST api/<CarrierController>
+        /// <summary>
+        /// Adds a carrier
+        /// </summary>
+        /// <param name="carrier"></param>
+        /// <returns></returns>
         [HttpPost]
-        public IActionResult Post([FromBody] CarrierViewModel carrier)
+        public IActionResult Post([FromBody] Carriers carrier)
         {
             try
             {
-                var resutl = carrierService.AddCarrier(carrier);
-                return Ok(new { status = 200, message = resutl });
+                var resutl = carrierService.Add(carrier);
+                return Ok(200);
             }
             catch (Exception ex)
             {
@@ -65,14 +77,18 @@
             }
         }
 
-        // PUT api/<CarrierController>/5
-        [HttpPut("{id}")]
-        public IActionResult Put([FromBody] CarrierViewModel carrier, int id)
+        /// <summary>
+        /// Edit a carrier
+        /// </summary>
+        /// <param name="carrier"></param>
+        /// <returns></returns>
+        [HttpPut]
+        public IActionResult Put([FromBody] Carriers carrier)
         {
             try
             {
-                var resutl = carrierService.AddCarrier(carrier, id);
-                return Ok(new { status = 200, message = resutl });
+                var resutl = carrierService.Update(carrier);
+                return Ok(200);
             }
             catch (Exception ex)
             {
@@ -80,14 +96,18 @@
             }
         }
 
-        // DELETE api/<CarrierController>/5
+        /// <summary>
+        /// Delete a carrier
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        public IActionResult Delete(string id)
         {
             try
             {
-                var resutl = carrierService.RemoveCarrier(id);
-                return Ok(new { status = 200, message = resutl });
+                var resutl = carrierService.Remove(id);
+                return Ok();
             }
             catch (Exception ex)
             {

@@ -90,9 +90,6 @@ C:\Users\Andrew\Desktop\Desk\Lean Tech Dev Test\repos\lean_tech_backend_test\lea
 C:\Users\Andrew\Desktop\Desk\Lean Tech Dev Test\repos\lean_tech_backend_test\lean_tech_backend_test\NoSQL-CRUD\sql-CRUD\obj\Debug\netcoreapp3.1\NoSQL-CRUD.csprojAssemblyReference.cache
 C:\Users\Andrew\Desktop\Desk\Lean Tech Dev Test\repos\lean_tech_backend_test\lean_tech_backend_test\NoSQL-CRUD\sql-CRUD\obj\Debug\netcoreapp3.1\NoSQL-CRUD.AssemblyInfoInputs.cache
 C:\Users\Andrew\Desktop\Desk\Lean Tech Dev Test\repos\lean_tech_backend_test\lean_tech_backend_test\NoSQL-CRUD\sql-CRUD\obj\Debug\netcoreapp3.1\NoSQL-CRUD.AssemblyInfo.cs
-C:\Users\Andrew\Desktop\Desk\Lean Tech Dev Test\repos\lean_tech_backend_test\lean_tech_backend_test\NoSQL-CRUD\sql-CRUD\obj\Debug\netcoreapp3.1\NoSQL-CRUD.csproj.CoreCompileInputs.cache
-C:\Users\Andrew\Desktop\Desk\Lean Tech Dev Test\repos\lean_tech_backend_test\lean_tech_backend_test\NoSQL-CRUD\sql-CRUD\obj\Debug\netcoreapp3.1\NoSQL-CRUD.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Andrew\Desktop\Desk\Lean Tech Dev Test\repos\lean_tech_backend_test\lean_tech_backend_test\NoSQL-CRUD\sql-CRUD\obj\Debug\netcoreapp3.1\NoSQL-CRUD.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Andrew\Desktop\Desk\Lean Tech Dev Test\repos\lean_tech_backend_test\lean_tech_backend_test\NoSQL-CRUD\sql-CRUD\obj\Debug\netcoreapp3.1\NoSQL-CRUD.RazorAssemblyInfo.cache
 C:\Users\Andrew\Desktop\Desk\Lean Tech Dev Test\repos\lean_tech_backend_test\lean_tech_backend_test\NoSQL-CRUD\sql-CRUD\obj\Debug\netcoreapp3.1\NoSQL-CRUD.RazorAssemblyInfo.cs
 C:\Users\Andrew\Desktop\Desk\Lean Tech Dev Test\repos\lean_tech_backend_test\lean_tech_backend_test\NoSQL-CRUD\sql-CRUD\obj\Debug\netcoreapp3.1\NoSQL-CRUD.TagHelpers.input.cache
@@ -114,3 +111,6 @@ C:\Users\Andrew\Desktop\Desk\Lean Tech Dev Test\repos\lean_tech_backend_test\lea
 C:\Users\Andrew\Desktop\Desk\Lean Tech Dev Test\repos\lean_tech_backend_test\lean_tech_backend_test\NoSQL-CRUD\sql-CRUD\obj\Debug\netcoreapp3.1\NoSQL-CRUD.dll
 C:\Users\Andrew\Desktop\Desk\Lean Tech Dev Test\repos\lean_tech_backend_test\lean_tech_backend_test\NoSQL-CRUD\sql-CRUD\obj\Debug\netcoreapp3.1\NoSQL-CRUD.pdb
 C:\Users\Andrew\Desktop\Desk\Lean Tech Dev Test\repos\lean_tech_backend_test\lean_tech_backend_test\NoSQL-CRUD\sql-CRUD\obj\Debug\netcoreapp3.1\NoSQL-CRUD.genruntimeconfig.cache
+C:\Users\Andrew\Desktop\Desk\Lean Tech Dev Test\repos\lean_tech_backend_test\lean_tech_backend_test\NoSQL-CRUD\sql-CRUD\obj\Debug\netcoreapp3.1\NoSQL-CRUD.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\Desktop\Desk\Lean Tech Dev Test\repos\lean_tech_backend_test\lean_tech_backend_test\NoSQL-CRUD\sql-CRUD\obj\Debug\netcoreapp3.1\NoSQL-CRUD.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Andrew\Desktop\Desk\Lean Tech Dev Test\repos\lean_tech_backend_test\lean_tech_backend_test\NoSQL-CRUD\sql-CRUD\obj\Debug\netcoreapp3.1\NoSQL-CRUD.MvcApplicationPartsAssemblyInfo.cache

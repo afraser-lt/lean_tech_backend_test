@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hello-world", "hello-world\hello-world.csproj", "{6340EE93-09D5-4BC6-9BF9-225A78CD6886}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hello-world", "hello-world\hello-world.csproj", "{6340EE93-09D5-4BC6-9BF9-225A78CD6886}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sql-CRUD", "sql-CRUD\sql-CRUD.csproj", "{0762D8B3-B822-4815-BE9D-E4AB8F13DD26}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoSQL-CRUD", "NoSQL-CRUD\sql-CRUD\NoSQL-CRUD.csproj", "{F663AE63-DFF7-4411-8243-16BB6FCF204E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API_EIA", "API_EIA\API_EIA.csproj", "{756776A0-6526-4210-AF1B-B6D3AC0930FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{F663AE63-DFF7-4411-8243-16BB6FCF204E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F663AE63-DFF7-4411-8243-16BB6FCF204E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F663AE63-DFF7-4411-8243-16BB6FCF204E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{756776A0-6526-4210-AF1B-B6D3AC0930FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756776A0-6526-4210-AF1B-B6D3AC0930FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756776A0-6526-4210-AF1B-B6D3AC0930FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756776A0-6526-4210-AF1B-B6D3AC0930FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,15 +1,12 @@
-﻿using sql_CRUD.Models;
+﻿using Microsoft.AspNetCore.Mvc;
+using sql_CRUD.MyModels;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace sql_CRUD.Services.Interfaces
 {
-    public interface IShipmentSerivice
+    public interface IShipmentSerivice : IGeneralService<Shipments>
     {
-        public IList<ShipmentViewModel> GetShipments(int? id = null);
-        public int AddShipment(ShipmentViewModel shipment, int? id = null);
-        public int RemoveShipment(int id);
+        IList<Shipments> FindByCriteria(string q, DateTime? date);
     }
 }

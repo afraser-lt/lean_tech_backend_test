@@ -2,14 +2,14 @@
 
 namespace sql_CRUD.Controllers
 {
+    using Microsoft.AspNetCore.Http;
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.Extensions.Configuration;
-    using sql_CRUD.Models;
+    using sql_CRUD.MyModels;
     using sql_CRUD.Services.Interfaces;
+    using Swashbuckle.Swagger.Annotations;
     using System;
-    using System.Collections.Generic;
-    using System.Data;
-    using System.Data.SqlClient;
+    using System.Net;
 
     [Route("sql/[controller]")]
     [ApiController]
@@ -24,13 +24,31 @@ namespace sql_CRUD.Controllers
             this.carrierService = carrierService;
         }
 
-        // GET: api/<CarrierController>
+        /// <summary>
+        /// Returns all existing carriers
+        /// </summary>
+        /// <remarks>
+        /// Sample request:
+        ///
+        ///     POST /Todo
+        ///     {
+        ///        "id": 1,
+        ///        "name": "Item1",
+        ///        "isComplete": true
+        ///     }
+        ///
+        /// </remarks>
+        /// <returns></returns>
+        //[ProducesResponseType(StatusCodes.Status201Created)]
+        //[ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [Produces("application/json")]
+        [SwaggerResponse(HttpStatusCode.OK, Type = typeof(Carriers))]
         [HttpGet]
         public IActionResult Get()
         {
             try
             {
-                var carriers = carrierService.GetCarriers();
+                var carriers = carrierService.GetAll();
                 return Ok(carriers);
             }
             catch (Exception ex)
@@ -39,13 +57,17 @@ namespace sql_CRUD.Controllers
             }
         }
 
-        // GET api/<CarrierController>/5
+        /// <summary>
+        /// Get a carrier by ID
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
             try
             {
-                var carriers = carrierService.GetCarriers(id);
+                var carriers = carrierService.Find(id);
                 return Ok(carriers);
             }
             catch (Exception ex)
@@ -54,13 +76,17 @@ namespace sql_CRUD.Controllers
             }
         }
 
-        // POST api/<CarrierController>
+        /// <summary>
+        /// Adds a carrier
+        /// </summary>
+        /// <param name="carrier"></param>
+        /// <returns></returns>
         [HttpPost]
-        public IActionResult Post([FromBody] CarrierViewModel carrier)
+        public IActionResult Post([FromBody] Carriers carrier)
         {
             try
             {
-                var resutl = carrierService.AddCarrier(carrier);
+                var resutl = carrierService.Add(carrier);
                 return Ok(200);
             }
             catch (Exception ex)
@@ -69,13 +95,17 @@ namespace sql_CRUD.Controllers
             }
         }
 
-        // PUT api/<CarrierController>/5
-        [HttpPut("{id}")]
-        public IActionResult Put([FromBody] CarrierViewModel carrier, int id)
+        /// <summary>
+        /// Edit a carrier
+        /// </summary>
+        /// <param name="carrier"></param>
+        /// <returns></returns>
+        [HttpPut]
+        public IActionResult Put([FromBody] Carriers carrier)
         {
             try
             {
-                var resutl = carrierService.AddCarrier(carrier, id);
+                var resutl = carrierService.Update(carrier);
                 return Ok(200);
             }
             catch (Exception ex)
@@ -84,14 +114,18 @@ namespace sql_CRUD.Controllers
             }
         }
 
-        // DELETE api/<CarrierController>/5
+        /// <summary>
+        /// Delete a carrier
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
             try
             {
-                var resutl = carrierService.RemoveCarrier(id);
-                return Ok(200);
+                var resutl = carrierService.Remove(id);
+                return Ok();
             }
             catch (Exception ex)
             {

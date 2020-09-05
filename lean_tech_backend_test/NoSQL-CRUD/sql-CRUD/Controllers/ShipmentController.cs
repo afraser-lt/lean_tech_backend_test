@@ -1,12 +1,14 @@
-﻿namespace sql_CRUD.Controllers
-{
-    using Microsoft.AspNetCore.Mvc;
-    using Microsoft.Extensions.Logging;
-    using sql_CRUD.Models;
-    using sql_CRUD.Services.Interfaces;
-    using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using nosql_CRUD.Models;
+using nosql_CRUD.Services.Interfaces;
+using System;
 
-    [Route("nosql/[controller]")]
+// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
+namespace sql_CRUD.Controllers
+{
+    [Route("sql/[controller]")]
     [ApiController]
     public class ShipmentController : ControllerBase
     {
@@ -19,13 +21,16 @@
             this.shipmentSerivice = shipmentSerivice;
         }
 
-        // GET: api/<ShipmentController>
+        /// <summary>
+        /// Reuturn all shipments
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IActionResult Get()
         {
             try
             {
-                var shipments = shipmentSerivice.GetShipments();
+                var shipments = shipmentSerivice.GetAll();
                 return Ok(shipments);
             }
             catch (Exception ex)
@@ -34,13 +39,18 @@
             }
         }
 
+        /// <summary>
+        /// Find a shipment
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         // GET api/<ShipmentController>/5
         [HttpGet("{id}")]
-        public IActionResult Get(int id)
+        public IActionResult Get(string id)
         {
             try
             {
-                var Shipments = shipmentSerivice.GetShipments(id);
+                var Shipments = shipmentSerivice.Find(id);
                 return Ok(Shipments);
             }
             catch (Exception ex)
@@ -49,14 +59,19 @@
             }
         }
 
+        /// <summary>
+        /// Adds a shipment
+        /// </summary>
+        /// <param name="shipment"></param>
+        /// <returns></returns>
         // POST api/<ShipmentController>
         [HttpPost]
-        public IActionResult Post([FromBody] ShipmentViewModel shipment)
+        public IActionResult Post([FromBody] Shipments shipment)
         {
             try
             {
-                var resutl = shipmentSerivice.AddShipment(shipment);
-                return Ok(new { status = 200, message = resutl });
+                var resutl = shipmentSerivice.Add(shipment);
+                return Ok(200);
             }
             catch (Exception ex)
             {
@@ -64,29 +79,39 @@
             }
         }
 
+        /// <summary>
+        /// Update a shipment
+        /// </summary>
+        /// <param name="shipment"></param>
+        /// <param name="id"></param>
+        /// <returns></returns>
         // PUT api/<ShipmentController>/5
         [HttpPut("{id}")]
-        public IActionResult Put([FromBody] ShipmentViewModel shipment, int id)
+        public IActionResult Put([FromBody] Shipments shipment, int id)
         {
             try
             {
-                var resutl = shipmentSerivice.AddShipment(shipment, id);
-                return Ok(new { status = 200, message = resutl });
+                var resutl = shipmentSerivice.Update(shipment);
+                return Ok(200);
             }
             catch (Exception ex)
             {
                 return StatusCode(400, new { error = ex.Message });
             }
         }
-
+        /// <summary>
+        /// Delete a shipment
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         // DELETE api/<ShipmentController>/5
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        public IActionResult Delete(string id)
         {
             try
             {
-                var resutl = shipmentSerivice.RemoveShipment(id);
-                return Ok(new { status = 200, message = resutl });
+                var resutl = shipmentSerivice.Remove(id);
+                return Ok(200);
             }
             catch (Exception ex)
             {

@@ -1,18 +1,8 @@
-﻿using sql_CRUD.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using nosql_CRUD.Models;
 
-namespace sql_CRUD.Services.Interfaces
+namespace nosql_CRUD.Services.Interfaces
 {
-    public interface IShipmentSerivice
+    public interface IShipmentSerivice : IGeneralService<Shipments>
     {
-        public IList<ShipmentViewModel> GetShipments(int? id = null);
-        public string AddShipment(ShipmentViewModel shipment, int? id = null);
-
-        public string RemoveShipment(int id);
-
-        public IList<ShipmentViewModel> Search(string q, string date = null);
     }
 }

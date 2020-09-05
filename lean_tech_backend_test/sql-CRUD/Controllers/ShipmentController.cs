@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using sql_CRUD.Models;
+using sql_CRUD.MyModels;
 using sql_CRUD.Services.Interfaces;
+using System;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -27,13 +21,16 @@ namespace sql_CRUD.Controllers
             this.shipmentSerivice = shipmentSerivice;
         }
 
-        // GET: api/<ShipmentController>
+        /// <summary>
+        /// Reuturn all shipments
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IActionResult Get()
         {
             try
             {
-                var shipments = shipmentSerivice.GetShipments();
+                var shipments = shipmentSerivice.GetAll();
                 return Ok(shipments);
             }
             catch (Exception ex)
@@ -42,13 +39,18 @@ namespace sql_CRUD.Controllers
             }
         }
 
+        /// <summary>
+        /// Find a shipment
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         // GET api/<ShipmentController>/5
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
             try
             {
-                var Shipments = shipmentSerivice.GetShipments(id);
+                var Shipments = shipmentSerivice.Find(id);
                 return Ok(Shipments);
             }
             catch (Exception ex)
@@ -57,13 +59,18 @@ namespace sql_CRUD.Controllers
             }
         }
 
+        /// <summary>
+        /// Adds a shipment
+        /// </summary>
+        /// <param name="shipment"></param>
+        /// <returns></returns>
         // POST api/<ShipmentController>
         [HttpPost]
-        public IActionResult Post([FromBody] ShipmentViewModel shipment)
+        public IActionResult Post([FromBody] Shipments shipment)
         {
             try
             {
-                var resutl = shipmentSerivice.AddShipment(shipment);
+                var resutl = shipmentSerivice.Add(shipment);
                 return Ok(200);
             }
             catch (Exception ex)
@@ -72,13 +79,19 @@ namespace sql_CRUD.Controllers
             }
         }
 
+        /// <summary>
+        /// Update a shipment
+        /// </summary>
+        /// <param name="shipment"></param>
+        /// <param name="id"></param>
+        /// <returns></returns>
         // PUT api/<ShipmentController>/5
         [HttpPut("{id}")]
-        public IActionResult Put([FromBody] ShipmentViewModel shipment, int id)
+        public IActionResult Put([FromBody] Shipments shipment, int id)
         {
             try
             {
-                var resutl = shipmentSerivice.AddShipment(shipment, id);
+                var resutl = shipmentSerivice.Update(shipment);
                 return Ok(200);
             }
             catch (Exception ex)
@@ -86,14 +99,18 @@ namespace sql_CRUD.Controllers
                 return StatusCode(400, new { error = ex.Message });
             }
         }
-
+        /// <summary>
+        /// Delete a shipment
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         // DELETE api/<ShipmentController>/5
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
             try
             {
-                var resutl = shipmentSerivice.RemoveShipment(id);
+                var resutl = shipmentSerivice.Remove(id);
                 return Ok(200);
             }
             catch (Exception ex)

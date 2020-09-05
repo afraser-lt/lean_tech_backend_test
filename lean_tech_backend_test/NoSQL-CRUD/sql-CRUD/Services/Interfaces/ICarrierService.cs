@@ -1,12 +1,8 @@
-﻿namespace sql_CRUD.Services.Interfaces
-{
-    using sql_CRUD.Models;
-    using System.Collections.Generic;
+﻿using nosql_CRUD.Models;
 
-    public interface ICarrierService
+namespace nosql_CRUD.Services.Interfaces
+{
+    public interface ICarrierService : IGeneralService<Carriers>
     {
-        public IList<CarrierViewModel> GetCarriers(int? id = null);
-        public string AddCarrier(CarrierViewModel carrier, int? id = null);
-        public string RemoveCarrier(int id);
     }
 }

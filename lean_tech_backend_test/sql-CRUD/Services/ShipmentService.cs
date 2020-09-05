@@ -1,10 +1,11 @@
-﻿using Microsoft.Extensions.Configuration;
-using sql_CRUD.Models;
+﻿using Microsoft.EntityFrameworkCore;
+//using Microsoft.EntityFrameworkCore.Internal;
+using Microsoft.Extensions.Configuration;
+using sql_CRUD.MyModels;
 using sql_CRUD.Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Data.SqlClient;
 using System.Linq;
 
 namespace sql_CRUD.Core
@@ -20,6 +21,118 @@ namespace sql_CRUD.Core
             this.carrierService = carrierService;
         }
 
+        public int Add(Shipments model)
+        {
+            try
+            {
+                using (var context = new TestdbContext())
+                {
+                    var result = context.Shipments.Add(model);
+                    return context.SaveChanges();
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public Shipments Find(int id)
+        {
+            try
+            {
+                using (var context = new TestdbContext())
+                {
+                    var shipment = context.Shipments.Where(c => c.Id == id).FirstOrDefault();
+                    return shipment;
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public IList<Shipments> GetAll()
+        {
+            try
+            {
+                using (var context = new TestdbContext())
+                {
+                    var shipment = context.Shipments.ToList();
+                    return shipment;
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+        public int Remove(int id)
+        {
+            try
+            {
+                using (var context = new TestdbContext())
+                {
+                    var shipment = context.Shipments.Where(c => c.Id == id).FirstOrDefault();
+                    context.Shipments.Remove(shipment);
+                    return context.SaveChanges();
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public int Update(Shipments model)
+        {
+            try
+            {
+                using (var context = new TestdbContext())
+                {
+                    var shipment = context.Shipments.Update(model);
+                    return context.SaveChanges();
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Find data by criteria in shipments table
+        /// </summary>
+        /// <param name="q">Words</param>
+        /// <param name="date">Date</param>
+        /// <returns>IList<Shipments></returns>
+        public IList<Shipments> FindByCriteria(string q, DateTime? date)
+        {
+            try
+            {
+                using (var context = new TestdbContext())
+                {
+                    // todo: separate terms by space
+                    var words = q.Split(' ').Select(w => $"'\"{w}\"'" + " AND ").ToString();
+                    
+                    var dateFiter = (date != null) ? $" Date = N'{date}' AND" : "";
+
+                    // Note: Must have installed full-text search on the database and created the catalog for each table column
+                    var shipments = context.Shipments.FromSqlRaw($"SELECT * FROM dbo.shipments WHERE {dateFiter} CONTAINS(*, {words});").ToList();
+                    return shipments;
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+
+        /*
         /// <summary>
         /// 
         /// </summary>
@@ -64,7 +177,7 @@ namespace sql_CRUD.Core
                                 command.Parameters.AddWithValue("@pickupDate", shipment.PickupDate ?? (_shipmen.PickupDate ?? (Object)DBNull.Value));
                                 command.Parameters.AddWithValue("@deliveryDate", shipment.DeliveryDate ?? (_shipmen.DeliveryDate ?? (Object)DBNull.Value));
                                 command.Parameters.AddWithValue("@status", shipment.Status ?? (_shipmen.Status ?? (Object)DBNull.Value));
-                                command.Parameters.AddWithValue("@carrierRate", shipment.CarrierRate ?? (_shipmen.CarrierRate ?? (Object)DBNull.Value));
+                                //command.Parameters.AddWithValue("@carrierRate", shipment.CarrierRate ?? (_shipmen.CarrierRate ?? (Object)DBNull.Value));
                             }
                             else
                             {
@@ -84,7 +197,7 @@ namespace sql_CRUD.Core
                             command.Parameters.AddWithValue("@pickupDate", shipment.PickupDate ?? (Object)DBNull.Value);
                             command.Parameters.AddWithValue("@deliveryDate", shipment.DeliveryDate ?? (Object)DBNull.Value);
                             command.Parameters.AddWithValue("@status", shipment.Status ?? (Object)DBNull.Value);
-                            command.Parameters.AddWithValue("@carrierRate", shipment.CarrierRate ?? (Object)DBNull.Value);
+                            //command.Parameters.AddWithValue("@carrierRate", shipment.CarrierRate ?? (Object)DBNull.Value);
                         }
                         result = command.ExecuteNonQuery();
                     }
@@ -97,7 +210,9 @@ namespace sql_CRUD.Core
                 throw;
             }
         }
+        */
 
+        /*
         /// <summary>
         /// 
         /// </summary>
@@ -131,7 +246,7 @@ namespace sql_CRUD.Core
                                 Shipment.PickupDate = reader["pickupDate"] != DBNull.Value ? reader.GetDateTime("pickupDate") : (DateTime?)null;
                                 Shipment.DeliveryDate = reader["deliveryDate"] != DBNull.Value ? reader.GetDateTime("deliveryDate") : (DateTime?)null;
                                 Shipment.Status = reader.GetString("status");
-                                Shipment.CarrierRate = reader["carrierRate"] != DBNull.Value ? reader.GetDecimal("carrierRate") : 0;
+                                //Shipment.CarrierRate = reader["carrierRate"] != DBNull.Value ? reader.GetDecimal("carrierRate") : 0;
                                 Shipments.Add(Shipment);
                             }
                         }
@@ -145,7 +260,9 @@ namespace sql_CRUD.Core
                 throw;
             }
         }
+        */
 
+        /*
         /// <summary>
         /// 
         /// </summary>
@@ -174,5 +291,6 @@ namespace sql_CRUD.Core
                 throw;
             }
         }
+        */
     }
 }

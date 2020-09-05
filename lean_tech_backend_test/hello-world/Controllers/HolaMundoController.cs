@@ -38,7 +38,7 @@ namespace hello_world.Controllers
         /// Returns a json object
         /// </summary>
         /// <returns></returns>
-        [HttpGet("json")]
+        [HttpGet("Helloworld/json")]
         public IActionResult Json()
         {
             var message = new { message = "Hello world" };

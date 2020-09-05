@@ -1,12 +1,11 @@
-﻿using sql_CRUD.Models;
+﻿using sql_CRUD.Core;
+using sql_CRUD.Models;
+using sql_CRUD.MyModels;
 using System.Collections.Generic;
 
 namespace sql_CRUD.Services.Interfaces
 {
-    public interface ICarrierService
+    public interface ICarrierService: IGeneralService<Carriers>
     {
-        public IList<CarrierViewModel> GetCarriers(int? id = null);
-        public int AddCarrier(CarrierViewModel carrier, int? id = null);
-        public int RemoveCarrier(int id);
     }
 }
