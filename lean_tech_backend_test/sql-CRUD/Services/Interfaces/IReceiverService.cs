@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace sql_CRUD.Services.Interfaces
 {
-    public interface IReceiverService: IGeneralService<Receivers>
+    public interface IReceiverService: IGeneralService<Receiver>
     {
     }
 }

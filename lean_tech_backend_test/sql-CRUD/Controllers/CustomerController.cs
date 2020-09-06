@@ -64,7 +64,7 @@ namespace sql_CRUD.Controllers
         /// <param name="customer"></param>
         /// <returns></returns>
         [HttpPost]
-        public IActionResult Post([FromBody] Customers customer)
+        public IActionResult Post([FromBody] Customer customer)
         {
             try
             {
@@ -83,7 +83,7 @@ namespace sql_CRUD.Controllers
         /// <param name="customer"></param>
         /// <returns></returns>
         [HttpPut]
-        public IActionResult Put([FromBody] Customers customer)
+        public IActionResult Put([FromBody] Customer customer)
         {
             try
             {

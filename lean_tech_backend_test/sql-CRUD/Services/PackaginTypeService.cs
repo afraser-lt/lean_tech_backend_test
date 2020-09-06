@@ -19,7 +19,7 @@
             this.configuration = configuration;
         }
 
-        public IList<PackaginTypes> GetAll()
+        public IList<MyModels.PackaginType> GetAll()
         {
             try { 
                 using (var context = new TestdbContext())
@@ -35,7 +35,7 @@
             }
         }
 
-        public int Add(PackaginTypes model)
+        public int Add(MyModels.PackaginType model)
         {
             try
             {
@@ -51,13 +51,13 @@
             }
         }
 
-        public int Update(PackaginTypes model)
+        public int Update(MyModels.PackaginType model)
         {
             try
             {
                 using (var context = new TestdbContext())
                 {
-                    var packaginType = context.PackaginTypes.Update(model);
+                    context.Update(model);
                     return context.SaveChanges();
                 }
             }
@@ -84,7 +84,7 @@
             }
         }
 
-        public PackaginTypes Find(int id)
+        public MyModels.PackaginType Find(int id)
         {
             try
             {

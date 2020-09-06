@@ -4,14 +4,9 @@ namespace sql_CRUD.Controllers
 {
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.Extensions.Configuration;
-    using sql_CRUD.Models;
     using sql_CRUD.MyModels;
     using sql_CRUD.Services.Interfaces;
     using System;
-    using System.Collections.Generic;
-    using System.Data;
-    using System.Data.SqlClient;
-    using System.Net;
 
     [Route("sql/[controller]")]
     [ApiController]
@@ -69,7 +64,7 @@ namespace sql_CRUD.Controllers
         /// <param name="receiver"></param>
         /// <returns></returns>
         [HttpPost]
-        public IActionResult Post([FromBody] Receivers receiver)
+        public IActionResult Post([FromBody] Receiver receiver)
         {
             try
             {
@@ -88,7 +83,7 @@ namespace sql_CRUD.Controllers
         /// <param name="receiver"></param>
         /// <returns></returns>
         [HttpPut]
-        public IActionResult Put([FromBody] Receivers receiver)
+        public IActionResult Put([FromBody] Receiver receiver)
         {
             try
             {

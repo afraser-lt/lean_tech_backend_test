@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace sql_CRUD.MyModels
 {
-    public class Carriers
+    public class Carrier
     {
         public int Id { get; set; }
         public string Name { get; set; }
@@ -11,6 +11,6 @@ namespace sql_CRUD.MyModels
         public long Mc { get; set; }
         public long Dot { get; set; }
         public long Fein { get; set; }
-        public decimal Rate { get; set; }
+        //public decimal Rate { get; set; }
     }
 }

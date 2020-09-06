@@ -55,7 +55,7 @@ namespace sql_CRUD.Migrations
                     b.ToTable("Bols");
                 });
 
-            modelBuilder.Entity("sql_CRUD.MyModels.Carriers", b =>
+            modelBuilder.Entity("sql_CRUD.MyModels.Carrier", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -74,9 +74,6 @@ namespace sql_CRUD.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("Rate")
-                        .HasColumnType("decimal(18,2)");
-
                     b.Property<string>("Scac")
                         .HasColumnType("nvarchar(max)");
 
@@ -85,29 +82,7 @@ namespace sql_CRUD.Migrations
                     b.ToTable("Carriers");
                 });
 
-            modelBuilder.Entity("sql_CRUD.MyModels.CustomerOrders", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int?>("BolsId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("CustomerId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("BolsId");
-
-                    b.HasIndex("CustomerId");
-
-                    b.ToTable("CustomerOrders");
-                });
-
-            modelBuilder.Entity("sql_CRUD.MyModels.Customers", b =>
+            modelBuilder.Entity("sql_CRUD.MyModels.Customer", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -122,14 +97,17 @@ namespace sql_CRUD.Migrations
                     b.ToTable("Customers");
                 });
 
-            modelBuilder.Entity("sql_CRUD.MyModels.Orders", b =>
+            modelBuilder.Entity("sql_CRUD.MyModels.Order", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("CustomerOrdersId")
+                    b.Property<int?>("BolsId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("CustomerId")
                         .HasColumnType("int");
 
                     b.Property<string>("Number")
@@ -152,12 +130,14 @@ namespace sql_CRUD.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CustomerOrdersId");
+                    b.HasIndex("BolsId");
+
+                    b.HasIndex("CustomerId");
 
                     b.ToTable("Orders");
                 });
 
-            modelBuilder.Entity("sql_CRUD.MyModels.PackaginTypes", b =>
+            modelBuilder.Entity("sql_CRUD.MyModels.PackaginType", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -184,7 +164,7 @@ namespace sql_CRUD.Migrations
                     b.ToTable("PackaginTypes");
                 });
 
-            modelBuilder.Entity("sql_CRUD.MyModels.Receivers", b =>
+            modelBuilder.Entity("sql_CRUD.MyModels.Receiver", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -199,7 +179,7 @@ namespace sql_CRUD.Migrations
                     b.ToTable("Receivers");
                 });
 
-            modelBuilder.Entity("sql_CRUD.MyModels.Shipments", b =>
+            modelBuilder.Entity("sql_CRUD.MyModels.Shipment", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -209,10 +189,10 @@ namespace sql_CRUD.Migrations
                     b.Property<int?>("CarrierId")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("Date")
+                    b.Property<DateTime?>("Date")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("DeliveryDate")
+                    b.Property<DateTime?>("DeliveryDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("DestinationCity")
@@ -233,8 +213,11 @@ namespace sql_CRUD.Migrations
                     b.Property<string>("OriginState")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("PickupDate")
+                    b.Property<DateTime?>("PickupDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<decimal>("Rate")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("Status")
                         .HasColumnType("nvarchar(max)");
@@ -248,40 +231,33 @@ namespace sql_CRUD.Migrations
 
             modelBuilder.Entity("sql_CRUD.MyModels.Bols", b =>
                 {
-                    b.HasOne("sql_CRUD.MyModels.PackaginTypes", "PackaginType")
+                    b.HasOne("sql_CRUD.MyModels.PackaginType", "PackaginType")
                         .WithMany()
                         .HasForeignKey("PackaginTypeId");
 
-                    b.HasOne("sql_CRUD.MyModels.Receivers", "Receiver")
+                    b.HasOne("sql_CRUD.MyModels.Receiver", "Receiver")
                         .WithMany()
                         .HasForeignKey("ReceiverId");
 
-                    b.HasOne("sql_CRUD.MyModels.Shipments", "Shipment")
+                    b.HasOne("sql_CRUD.MyModels.Shipment", "Shipment")
                         .WithMany()
                         .HasForeignKey("ShipmentId");
                 });
 
-            modelBuilder.Entity("sql_CRUD.MyModels.CustomerOrders", b =>
+            modelBuilder.Entity("sql_CRUD.MyModels.Order", b =>
                 {
                     b.HasOne("sql_CRUD.MyModels.Bols", null)
-                        .WithMany("customerOrders")
+                        .WithMany("Orders")
                         .HasForeignKey("BolsId");
 
-                    b.HasOne("sql_CRUD.MyModels.Customers", "Customer")
+                    b.HasOne("sql_CRUD.MyModels.Customer", "Customer")
                         .WithMany()
                         .HasForeignKey("CustomerId");
                 });
 
-            modelBuilder.Entity("sql_CRUD.MyModels.Orders", b =>
+            modelBuilder.Entity("sql_CRUD.MyModels.Shipment", b =>
                 {
-                    b.HasOne("sql_CRUD.MyModels.CustomerOrders", null)
-                        .WithMany("Orders")
-                        .HasForeignKey("CustomerOrdersId");
-                });
-
-            modelBuilder.Entity("sql_CRUD.MyModels.Shipments", b =>
-                {
-                    b.HasOne("sql_CRUD.MyModels.Carriers", "Carrier")
+                    b.HasOne("sql_CRUD.MyModels.Carrier", "Carrier")
                         .WithMany()
                         .HasForeignKey("CarrierId");
                 });

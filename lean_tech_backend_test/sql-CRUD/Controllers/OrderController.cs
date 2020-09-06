@@ -69,7 +69,7 @@ namespace sql_CRUD.Controllers
         /// <param name="order"></param>
         /// <returns></returns>
         [HttpPost]
-        public IActionResult Post([FromBody] Orders order)
+        public IActionResult Post([FromBody] Order order)
         {
             try
             {
@@ -88,7 +88,7 @@ namespace sql_CRUD.Controllers
         /// <param name="order"></param>
         /// <returns></returns>
         [HttpPut]
-        public IActionResult Put([FromBody] Orders order)
+        public IActionResult Put([FromBody] Order order)
         {
             try
             {

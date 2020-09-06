@@ -144,3 +144,4 @@ C:\Users\Andrew\Desktop\Desk\Lean Tech Dev Test\repos\lean_tech_backend_test\lea
 C:\Users\Andrew\Desktop\Desk\Lean Tech Dev Test\repos\lean_tech_backend_test\lean_tech_backend_test\sql-CRUD\obj\Debug\netcoreapp3.1\sql-CRUD.csproj.CoreCompileInputs.cache
 C:\Users\Andrew\Desktop\Desk\Lean Tech Dev Test\repos\lean_tech_backend_test\lean_tech_backend_test\sql-CRUD\obj\Debug\netcoreapp3.1\sql-CRUD.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Andrew\Desktop\Desk\Lean Tech Dev Test\repos\lean_tech_backend_test\lean_tech_backend_test\sql-CRUD\obj\Debug\netcoreapp3.1\sql-CRUD.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Andrew\Desktop\Desk\Lean Tech Dev Test\repos\lean_tech_backend_test\lean_tech_backend_test\sql-CRUD\obj\Debug\netcoreapp3.1\sql-CRUD.csprojAssemblyReference.cache

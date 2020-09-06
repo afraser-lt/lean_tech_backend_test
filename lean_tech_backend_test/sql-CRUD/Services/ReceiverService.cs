@@ -19,7 +19,7 @@
             this.configuration = configuration;
         }
 
-        public IList<Receivers> GetAll()
+        public IList<Receiver> GetAll()
         {
             try { 
                 using (var context = new TestdbContext())
@@ -35,7 +35,7 @@
             }
         }
 
-        public int Add(Receivers model)
+        public int Add(Receiver model)
         {
             try
             {
@@ -51,13 +51,13 @@
             }
         }
 
-        public int Update(Receivers model)
+        public int Update(Receiver model)
         {
             try
             {
                 using (var context = new TestdbContext())
                 {
-                    var receiver = context.Receivers.Update(model);
+                    context.Update(model);
                     return context.SaveChanges();
                 }
             }
@@ -84,7 +84,7 @@
             }
         }
 
-        public Receivers Find(int id)
+        public Receiver Find(int id)
         {
             try
             {

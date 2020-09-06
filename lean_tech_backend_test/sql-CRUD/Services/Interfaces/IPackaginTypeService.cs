@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace sql_CRUD.Services.Interfaces
 {
-    public interface IPackaginTypeService: IGeneralService<PackaginTypes>
+    public interface IPackaginTypeService: IGeneralService<MyModels.PackaginType>
     {
     }
 }

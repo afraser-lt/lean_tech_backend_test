@@ -19,7 +19,7 @@ namespace sql_CRUD.Core
             this.carrierService = carrierService;
         }
 
-        public int Add(Customers model)
+        public int Add(Customer model)
         {
             try
             {
@@ -35,7 +35,7 @@ namespace sql_CRUD.Core
             }
         }
 
-        public Customers Find(int id)
+        public Customer Find(int id)
         {
             try
             {
@@ -51,7 +51,7 @@ namespace sql_CRUD.Core
             }
         }
 
-        public IList<Customers> GetAll()
+        public IList<Customer> GetAll()
         {
             try
             {
@@ -85,13 +85,14 @@ namespace sql_CRUD.Core
             }
         }
 
-        public int Update(Customers model)
+        public int Update(Customer model)
         {
             try
             {
                 using (var context = new TestdbContext())
                 {
-                    var customer = context.Customers.Update(model);
+                    //var customer = context.Customers.Update(model);
+                    context.Update(model);
                     return context.SaveChanges();
                 }
             }

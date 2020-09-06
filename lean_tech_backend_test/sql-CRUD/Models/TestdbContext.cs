@@ -14,13 +14,12 @@ namespace sql_CRUD.MyModels
         }
 
         public virtual DbSet<Bols> Bols { get; set; }
-        public virtual DbSet<Carriers> Carriers { get; set; }
-        public virtual DbSet<Customers> Customers { get; set; }
-        public virtual DbSet<Orders> Orders { get; set; }
-        public virtual DbSet<PackaginTypes> PackaginTypes { get; set; }
-        public virtual DbSet<Receivers> Receivers { get; set; }
-        public virtual DbSet<CustomerOrders> CustomerOrders { get; set; }
-        public virtual DbSet<Shipments> Shipments { get; set; }
+        public virtual DbSet<Carrier> Carriers { get; set; }
+        public virtual DbSet<Customer> Customers { get; set; }
+        public virtual DbSet<Order> Orders { get; set; }
+        public virtual DbSet<PackaginType> PackaginTypes { get; set; }
+        public virtual DbSet<Receiver> Receivers { get; set; }
+        public virtual DbSet<Shipment> Shipments { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -36,6 +35,10 @@ namespace sql_CRUD.MyModels
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Bols>()
+            .HasMany(e => e.Orders)
+            .WithOne()
+            .OnDelete(DeleteBehavior.SetNull); // or whatever you like
         }
     }
 }

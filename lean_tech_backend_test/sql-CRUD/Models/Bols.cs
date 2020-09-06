@@ -10,9 +10,9 @@ namespace sql_CRUD.MyModels
         public string SpecialInstruction { get; set; }
         public string ItemsDesciptions { get; set; }
 
-        public PackaginTypes PackaginType { get; set; }
-        public Receivers Receiver { get; set; }
-        public Shipments Shipment { get; set; }
-        public ICollection<CustomerOrders> customerOrders { get; set; }
+        public PackaginType PackaginType { get; set; }
+        public Receiver Receiver { get; set; }
+        public Shipment Shipment { get; set; }
+        public ICollection<Order> Orders { get; set; }
     }
 }

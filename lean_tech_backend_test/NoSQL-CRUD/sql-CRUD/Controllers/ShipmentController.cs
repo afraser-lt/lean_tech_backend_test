@@ -87,7 +87,7 @@ namespace sql_CRUD.Controllers
         /// <returns></returns>
         // PUT api/<ShipmentController>/5
         [HttpPut("{id}")]
-        public IActionResult Put([FromBody] Shipments shipment, int id)
+        public IActionResult Put([FromBody] Shipments shipment)
         {
             try
             {

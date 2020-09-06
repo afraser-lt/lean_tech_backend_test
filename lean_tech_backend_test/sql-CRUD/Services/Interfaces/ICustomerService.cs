@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace sql_CRUD.Services.Interfaces
 {
-    public interface ICustomerService: IGeneralService<Customers>
+    public interface ICustomerService: IGeneralService<Customer>
     {
     }
 }

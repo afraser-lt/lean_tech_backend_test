@@ -5,8 +5,8 @@ using System.Collections.Generic;
 
 namespace sql_CRUD.Services.Interfaces
 {
-    public interface IShipmentSerivice : IGeneralService<Shipments>
+    public interface IShipmentSerivice : IGeneralService<Shipment>
     {
-        IList<Shipments> FindByCriteria(string q, DateTime? date);
+        IList<Shipment> FindByCriteria(string q, DateTime? date);
     }
 }

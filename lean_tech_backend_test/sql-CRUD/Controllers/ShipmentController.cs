@@ -66,7 +66,7 @@ namespace sql_CRUD.Controllers
         /// <returns></returns>
         // POST api/<ShipmentController>
         [HttpPost]
-        public IActionResult Post([FromBody] Shipments shipment)
+        public IActionResult Post([FromBody] Shipment shipment)
         {
             try
             {
@@ -83,11 +83,10 @@ namespace sql_CRUD.Controllers
         /// Update a shipment
         /// </summary>
         /// <param name="shipment"></param>
-        /// <param name="id"></param>
         /// <returns></returns>
         // PUT api/<ShipmentController>/5
-        [HttpPut("{id}")]
-        public IActionResult Put([FromBody] Shipments shipment, int id)
+        [HttpPut()]
+        public IActionResult Put([FromBody] Shipment shipment)
         {
             try
             {

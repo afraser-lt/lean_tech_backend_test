@@ -42,7 +42,7 @@ namespace sql_CRUD.Controllers
         //[ProducesResponseType(StatusCodes.Status201Created)]
         //[ProducesResponseType(StatusCodes.Status400BadRequest)]
         [Produces("application/json")]
-        [SwaggerResponse(HttpStatusCode.OK, Type = typeof(Carriers))]
+        [SwaggerResponse(HttpStatusCode.OK, Type = typeof(Carrier))]
         [HttpGet]
         public IActionResult Get()
         {
@@ -82,7 +82,7 @@ namespace sql_CRUD.Controllers
         /// <param name="carrier"></param>
         /// <returns></returns>
         [HttpPost]
-        public IActionResult Post([FromBody] Carriers carrier)
+        public IActionResult Post([FromBody] Carrier carrier)
         {
             try
             {
@@ -101,7 +101,7 @@ namespace sql_CRUD.Controllers
         /// <param name="carrier"></param>
         /// <returns></returns>
         [HttpPut]
-        public IActionResult Put([FromBody] Carriers carrier)
+        public IActionResult Put([FromBody] Carrier carrier)
         {
             try
             {

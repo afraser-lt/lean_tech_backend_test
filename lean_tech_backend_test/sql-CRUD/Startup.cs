@@ -53,7 +53,6 @@ namespace sql_CRUD
             services.AddTransient<IOrderService, OrderService>();
             services.AddTransient<IPackaginTypeService, PackaginType>();
             services.AddTransient<IReceiverService, ReceiverService>();
-            services.AddTransient<ICustomerOderService, CustomerOrderService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

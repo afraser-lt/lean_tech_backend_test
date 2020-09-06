@@ -105,7 +105,7 @@ namespace sql_CRUD.Controllers
         public IActionResult Delete(int id)
         {
             try
-            {
+            {               
                 var resutl = BOLService.Remove(id);
                 return Ok();
             }

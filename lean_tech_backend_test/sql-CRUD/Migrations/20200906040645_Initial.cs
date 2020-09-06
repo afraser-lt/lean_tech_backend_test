@@ -17,8 +17,7 @@ namespace sql_CRUD.Migrations
                     Scac = table.Column<string>(nullable: true),
                     Mc = table.Column<long>(nullable: false),
                     Dot = table.Column<long>(nullable: false),
-                    Fein = table.Column<long>(nullable: false),
-                    Rate = table.Column<decimal>(nullable: false)
+                    Fein = table.Column<long>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -74,16 +73,17 @@ namespace sql_CRUD.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Date = table.Column<DateTime>(nullable: false),
+                    Date = table.Column<DateTime>(nullable: true),
                     OriginCountry = table.Column<string>(nullable: true),
                     OriginState = table.Column<string>(nullable: true),
                     OriginCity = table.Column<string>(nullable: true),
                     DestinationCountry = table.Column<string>(nullable: true),
                     DestinationState = table.Column<string>(nullable: true),
                     DestinationCity = table.Column<string>(nullable: true),
-                    PickupDate = table.Column<DateTime>(nullable: false),
-                    DeliveryDate = table.Column<DateTime>(nullable: false),
+                    PickupDate = table.Column<DateTime>(nullable: true),
+                    DeliveryDate = table.Column<DateTime>(nullable: true),
                     Status = table.Column<string>(nullable: true),
+                    Rate = table.Column<decimal>(nullable: false),
                     CarrierId = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
@@ -134,32 +134,6 @@ namespace sql_CRUD.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "CustomerOrders",
-                columns: table => new
-                {
-                    Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    CustomerId = table.Column<int>(nullable: true),
-                    BolsId = table.Column<int>(nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_CustomerOrders", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_CustomerOrders_Bols_BolsId",
-                        column: x => x.BolsId,
-                        principalTable: "Bols",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_CustomerOrders_Customers_CustomerId",
-                        column: x => x.CustomerId,
-                        principalTable: "Customers",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Orders",
                 columns: table => new
                 {
@@ -171,15 +145,22 @@ namespace sql_CRUD.Migrations
                     Pallet = table.Column<bool>(nullable: false),
                     Slip = table.Column<bool>(nullable: false),
                     ShippperInfo = table.Column<string>(nullable: true),
-                    CustomerOrdersId = table.Column<int>(nullable: true)
+                    CustomerId = table.Column<int>(nullable: true),
+                    BolsId = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Orders", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Orders_CustomerOrders_CustomerOrdersId",
-                        column: x => x.CustomerOrdersId,
-                        principalTable: "CustomerOrders",
+                        name: "FK_Orders_Bols_BolsId",
+                        column: x => x.BolsId,
+                        principalTable: "Bols",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_Orders_Customers_CustomerId",
+                        column: x => x.CustomerId,
+                        principalTable: "Customers",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
@@ -200,19 +181,14 @@ namespace sql_CRUD.Migrations
                 column: "ShipmentId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_CustomerOrders_BolsId",
-                table: "CustomerOrders",
+                name: "IX_Orders_BolsId",
+                table: "Orders",
                 column: "BolsId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_CustomerOrders_CustomerId",
-                table: "CustomerOrders",
-                column: "CustomerId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Orders_CustomerOrdersId",
+                name: "IX_Orders_CustomerId",
                 table: "Orders",
-                column: "CustomerOrdersId");
+                column: "CustomerId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Shipments_CarrierId",
@@ -224,9 +200,6 @@ namespace sql_CRUD.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Orders");
-
-            migrationBuilder.DropTable(
-                name: "CustomerOrders");
 
             migrationBuilder.DropTable(
                 name: "Bols");

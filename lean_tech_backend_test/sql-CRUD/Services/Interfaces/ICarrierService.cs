@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace sql_CRUD.Services.Interfaces
 {
-    public interface ICarrierService: IGeneralService<Carriers>
+    public interface ICarrierService: IGeneralService<Carrier>
     {
     }
 }

@@ -64,7 +64,7 @@ namespace sql_CRUD.Controllers
         /// <param name="shipment"></param>
         /// <returns></returns>
         [HttpPost("shipment")]
-        public IActionResult Post([FromBody] Shipments shipment)
+        public IActionResult Post([FromBody] Shipment shipment)
         {
             try
             {
@@ -83,7 +83,7 @@ namespace sql_CRUD.Controllers
         /// <param name="shipment"></param>
         /// <returns></returns>
         [HttpPut("shipment")]
-        public IActionResult Put([FromBody] Shipments shipment)
+        public IActionResult Put([FromBody] Shipment shipment)
         {
             try
             {
@@ -160,7 +160,7 @@ namespace sql_CRUD.Controllers
         }
 
         [HttpPost("carrier")]
-        public IActionResult PostCarrier([FromBody] Carriers carrier)
+        public IActionResult PostCarrier([FromBody] Carrier carrier)
         {
             try
             {
@@ -174,7 +174,7 @@ namespace sql_CRUD.Controllers
         }
 
         [HttpPut("carrier")]
-        public IActionResult PutCarrier([FromBody] Carriers carrier)
+        public IActionResult PutCarrier([FromBody] Carrier carrier)
         {
             try
             {
