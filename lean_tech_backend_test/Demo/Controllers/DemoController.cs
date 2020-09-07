@@ -1,10 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Demo.MyModels;
+using Demo.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
-using sql_CRUD.MyModels;
-using sql_CRUD.Services.Interfaces;
 using System;
 
-namespace sql_CRUD.Controllers
+namespace Demo.Controllers
 {
     [Route("[controller]")]
     public class DemoController : ControllerBase
@@ -19,7 +20,7 @@ namespace sql_CRUD.Controllers
             this.shipmentSerivice = shipmentSerivice;
             this.carrierSerivice = carrierSerivice;
         }
-
+        
         #region Shipment
         /// <summary>
         /// Returns all existing shipment
@@ -64,6 +65,7 @@ namespace sql_CRUD.Controllers
         /// <param name="shipment"></param>
         /// <returns></returns>
         [HttpPost("shipment")]
+        [Authorize(policy: "admin")]
         public IActionResult Post([FromBody] Shipment shipment)
         {
             try
@@ -83,6 +85,7 @@ namespace sql_CRUD.Controllers
         /// <param name="shipment"></param>
         /// <returns></returns>
         [HttpPut("shipment")]
+        [Authorize(policy: "admin")]
         public IActionResult Put([FromBody] Shipment shipment)
         {
             try
@@ -102,6 +105,7 @@ namespace sql_CRUD.Controllers
         /// <param name="id"></param>
         /// <returns></returns>
         [HttpDelete("shipment/{id}")]
+        [Authorize(policy: "admin")]
         public IActionResult Delete(int id)
         {
             try
@@ -119,7 +123,7 @@ namespace sql_CRUD.Controllers
         public IActionResult Find(string q, DateTime? date = null)
         {
             try
-            {                
+            {
                 var result = shipmentSerivice.FindByCriteria(q, date);
                 return Ok(result);
             }
@@ -129,7 +133,7 @@ namespace sql_CRUD.Controllers
             }
         }
         #endregion
-
+        
         #region Carrier
         [HttpGet("carrier")]
         public IActionResult Getcarrier()
@@ -160,6 +164,7 @@ namespace sql_CRUD.Controllers
         }
 
         [HttpPost("carrier")]
+        [Authorize(policy: "admin")]
         public IActionResult PostCarrier([FromBody] Carrier carrier)
         {
             try
@@ -174,6 +179,7 @@ namespace sql_CRUD.Controllers
         }
 
         [HttpPut("carrier")]
+        [Authorize(policy: "admin")]
         public IActionResult PutCarrier([FromBody] Carrier carrier)
         {
             try
@@ -188,6 +194,7 @@ namespace sql_CRUD.Controllers
         }
 
         [HttpDelete("carrier/{id}")]
+        [Authorize(policy: "admin")]
         public IActionResult DeleteCarrier(int id)
         {
             try

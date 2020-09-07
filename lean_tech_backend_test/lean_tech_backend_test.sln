@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoSQL-CRUD", "NoSQL-CRUD\sq
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API_EIA", "API_EIA\API_EIA.csproj", "{756776A0-6526-4210-AF1B-B6D3AC0930FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{238F6F0A-AEE1-450D-BE50-37CD52913EAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{756776A0-6526-4210-AF1B-B6D3AC0930FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{756776A0-6526-4210-AF1B-B6D3AC0930FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{756776A0-6526-4210-AF1B-B6D3AC0930FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{238F6F0A-AEE1-450D-BE50-37CD52913EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{238F6F0A-AEE1-450D-BE50-37CD52913EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{238F6F0A-AEE1-450D-BE50-37CD52913EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{238F6F0A-AEE1-450D-BE50-37CD52913EAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

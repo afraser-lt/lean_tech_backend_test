@@ -116,7 +116,7 @@ namespace sql_CRUD.Core
                 throw;
             }
         }
-
+        /*
         /// <summary>
         /// Find data by criteria in shipments table
         /// </summary>
@@ -144,5 +144,6 @@ namespace sql_CRUD.Core
                 throw;
             }
         }
+        */
     }
 }
