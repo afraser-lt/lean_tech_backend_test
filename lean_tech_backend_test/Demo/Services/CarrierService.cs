@@ -98,5 +98,22 @@
                 throw;
             }
         }
+
+        public int Import(IList<Carrier> model)
+        {
+            try
+            {
+                using (var context = new DemodbContext())
+                {
+                    //context.Entry(model).State = EntityState.Added;
+                    context.AddRangeAsync(model);
+                    return context.SaveChanges();
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
     }
 }

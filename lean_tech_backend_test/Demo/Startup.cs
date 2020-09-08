@@ -101,6 +101,7 @@ namespace Demo
 
             services.AddTransient<IShipmentSerivice, ShipmentService>();
             services.AddTransient<ICarrierService, CarrierService>();
+            services.AddTransient<IGoogleDriveService, GoogleDriveFileRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

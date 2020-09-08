@@ -1,0 +1,25 @@
+{
+	"shipment": [
+		{
+			"carrier": {
+				"scac": String,
+				"id": Number,
+				"name": String,
+				"mc": Number,
+				"dot": Number,
+				"fein": Number
+			},
+			"Date": String,
+			"Country": String,
+			"origin_state": String,
+			"origin_city": String,
+			"destination_country": String,
+			"destination_state": String,
+			"destination_city": String,
+			"pickup_date": DateTime,
+			"delivery_date": DateTime,
+			"status": String,
+			"carrier_rate": DateTime
+		}
+	]
+}

@@ -5,6 +5,7 @@ namespace Demo.MyModels
     public class Shipment
     {
         public int Id { get; set; }
+        public string CarrierId { get; set; }
         public string Date { get; set; }
         public string OriginCountry { get; set; }
         public string OriginState { get; set; }
@@ -16,6 +17,6 @@ namespace Demo.MyModels
         public string DeliveryDate { get; set; }
         public string Status { get; set; }
         public string Rate { get; set; }
-        public Carrier Carrier { get; set; }
+        //public Carrier Carrier { get; set; }
     }
 }

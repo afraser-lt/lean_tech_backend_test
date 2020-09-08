@@ -1,0 +1,42 @@
+﻿@model Demo.Models.ImportExcel
+
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>How to Import Excel File into Database in ASP.NET Core 2.0 </title>
+</head>
+<body>
+    @using (Html.BeginForm("Upload", "UploadToDrive", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {<table>
+            <tr>
+                <td>File Upload:</td>
+                <td>
+                    <input type="file" id="File_Upload" name="File"/>
+                    <br />
+                </td>
+            </tr>
+            <tr>
+
+                <td>File Name:</td>
+                <td>
+                    @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Upload" class="btn-default" />
+                </td>
+            </tr>
+        </table>
+    }
+</body>
+</html>

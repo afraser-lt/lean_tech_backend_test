@@ -2,7 +2,7 @@
 {
     public class Carrier
     {
-        public int Id { get; set; }
+        public int? Id { get; set; }
         public string Name { get; set; }
         public string Scac { get; set; }
         public string Mc { get; set; }

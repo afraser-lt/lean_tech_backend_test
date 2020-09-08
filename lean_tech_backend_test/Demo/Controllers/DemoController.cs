@@ -119,7 +119,7 @@ namespace Demo.Controllers
             }
         }
 
-        [HttpGet("shipment")]
+        [HttpGet("shipment/find")]
         public IActionResult Find(string q, DateTime? date = null)
         {
             try

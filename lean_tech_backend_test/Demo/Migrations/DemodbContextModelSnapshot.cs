@@ -21,7 +21,7 @@ namespace Demo.Migrations
 
             modelBuilder.Entity("Demo.MyModels.Carrier", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int?>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -53,8 +53,8 @@ namespace Demo.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("CarrierId")
-                        .HasColumnType("int");
+                    b.Property<string>("CarrierId")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Date")
                         .HasColumnType("nvarchar(max)");
@@ -91,16 +91,7 @@ namespace Demo.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CarrierId");
-
                     b.ToTable("Shipments");
-                });
-
-            modelBuilder.Entity("Demo.MyModels.Shipment", b =>
-                {
-                    b.HasOne("Demo.MyModels.Carrier", "Carrier")
-                        .WithMany()
-                        .HasForeignKey("CarrierId");
                 });
 #pragma warning restore 612, 618
         }
